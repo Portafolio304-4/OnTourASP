@@ -1,0 +1,439 @@
+CREATE TABLE actividad (
+    id                  INTEGER NOT NULL,
+    nombre              VARCHAR2(255),
+    fecha_realizacion   DATE
+);
+
+ALTER TABLE actividad ADD CONSTRAINT actividad_pk PRIMARY KEY ( id );
+
+CREATE TABLE alojamiento (
+    id                      INTEGER NOT NULL,
+    n_pasajeros             INTEGER,
+    id_ciudad_alojamiento   INTEGER NOT NULL
+);
+
+ALTER TABLE alojamiento ADD CONSTRAINT alojamiento_pk PRIMARY KEY ( id );
+
+CREATE TABLE alumno (
+    rut               VARCHAR2(255) NOT NULL,
+    nombre_completo   VARCHAR2(255),
+    ap_paterno        VARCHAR2(255),
+    ap_materno        VARCHAR2(255),
+    id_curso          INTEGER NOT NULL,
+    rut_apoderado     VARCHAR2(255) NOT NULL
+);
+
+ALTER TABLE alumno ADD CONSTRAINT alumno_pk PRIMARY KEY ( rut );
+
+CREATE TABLE apoderado (
+    rut               VARCHAR2(20) NOT NULL,
+    nombre_completo   VARCHAR2(255),
+    ap_paterno        VARCHAR2(255),
+    ap_materno        VARCHAR2(255)
+);
+
+ALTER TABLE apoderado ADD CONSTRAINT apoderado_pk PRIMARY KEY ( rut );
+
+CREATE TABLE ciudad_alojamiento (
+    id        INTEGER NOT NULL,
+    ciudad    VARCHAR2(255),
+    nombre    VARCHAR2(255),
+    tipo      VARCHAR2(255),
+    id_pais   INTEGER NOT NULL
+);
+
+ALTER TABLE ciudad_alojamiento ADD CONSTRAINT ciudad_alojamiento_pk PRIMARY KEY ( id );
+
+CREATE TABLE cliente (
+    id                INTEGER NOT NULL,
+    id_tipo_cliente   INTEGER NOT NULL,
+    id_tipo_usuario   INTEGER NOT NULL
+);
+
+ALTER TABLE cliente ADD CONSTRAINT cliente_pk PRIMARY KEY ( id );
+
+CREATE TABLE colegio (
+    id          INTEGER NOT NULL,
+    nombre      VARCHAR2(255),
+    direccion   VARCHAR2(255),
+    telefono    VARCHAR2(50)
+);
+
+ALTER TABLE colegio ADD CONSTRAINT colegio_pk PRIMARY KEY ( id );
+
+CREATE TABLE contrato (
+    id              INTEGER NOT NULL,
+    nombre          VARCHAR2(255),
+    fecha_emision   DATE,
+    id_curso        INTEGER NOT NULL
+);
+
+ALTER TABLE contrato ADD CONSTRAINT contrato_pk PRIMARY KEY ( id );
+
+CREATE TABLE curso (
+    id           INTEGER NOT NULL,
+    nivel        VARCHAR2(255),
+    letra        VARCHAR2(255),
+    grado        INTEGER,
+    id_colegio   INTEGER NOT NULL
+);
+
+ALTER TABLE curso ADD CONSTRAINT curso_pk PRIMARY KEY ( id );
+
+CREATE TABLE destino (
+    id                  INTEGER NOT NULL,
+    nombre              VARCHAR2(255),
+    n_pasajeros         INTEGER,
+    id_ciudad_destino   INTEGER NOT NULL
+);
+
+ALTER TABLE destino ADD CONSTRAINT destino_pk PRIMARY KEY ( id );
+
+CREATE TABLE destino_ciudad (
+    id        INTEGER NOT NULL,
+    nombre    VARCHAR2(255),
+    ciudad    VARCHAR2(255),
+    id_pais   INTEGER NOT NULL
+);
+
+ALTER TABLE destino_ciudad ADD CONSTRAINT destino_ciudad_pk PRIMARY KEY ( id );
+
+CREATE TABLE destino_pais (
+    id     INTEGER NOT NULL,
+    pais   VARCHAR2(255)
+);
+
+ALTER TABLE destino_pais ADD CONSTRAINT destino_pais_pk PRIMARY KEY ( id );
+
+CREATE TABLE pago (
+    id             INTEGER NOT NULL,
+    abono          INTEGER,
+    rut_alumno     VARCHAR2(20) NOT NULL,
+    id_tipo_pago   INTEGER NOT NULL
+);
+
+ALTER TABLE pago ADD CONSTRAINT pago_pk PRIMARY KEY ( id );
+
+CREATE TABLE pais_alojamiento (
+    id     INTEGER NOT NULL,
+    pais   VARCHAR2(255)
+);
+
+ALTER TABLE pais_alojamiento ADD CONSTRAINT pais_alojamiento_pk PRIMARY KEY ( id );
+
+CREATE TABLE paquete_viaje (
+    id               INTEGER NOT NULL,
+    fecha_ida        DATE,
+    fecha_vuelta     DATE,
+    hora_ida         TIMESTAMP WITH TIME ZONE,
+    hora_vuelta      TIMESTAMP WITH TIME ZONE,
+    origen           VARCHAR2(255),
+    valor            INTEGER,
+    id_transporte    INTEGER NOT NULL,
+    id_alojamiento   INTEGER NOT NULL,
+    id_seguro        INTEGER NOT NULL,
+    id_actividades   INTEGER NOT NULL,
+    id_destino       INTEGER NOT NULL,
+    id_contrato      INTEGER NOT NULL
+);
+
+ALTER TABLE paquete_viaje ADD CONSTRAINT paquete_viaje_pk PRIMARY KEY ( id );
+
+CREATE TABLE personal_agencia (
+    id                INTEGER NOT NULL,
+    cargo             VARCHAR2(255),
+    id_tipo_usuario   INTEGER NOT NULL
+);
+
+ALTER TABLE personal_agencia ADD CONSTRAINT personal_agencia_pk PRIMARY KEY ( id );
+
+CREATE TABLE seguro (
+    id                 INTEGER NOT NULL,
+    nombre             VARCHAR2(255),
+    cobertura_medica   VARCHAR2(255)
+);
+
+ALTER TABLE seguro ADD CONSTRAINT seguro_pk PRIMARY KEY ( id );
+
+CREATE TABLE tipo_cliente (
+    id       INTEGER NOT NULL,
+    nombre   VARCHAR2(255)
+);
+
+ALTER TABLE tipo_cliente ADD CONSTRAINT tipo_cliente_pk PRIMARY KEY ( id );
+
+CREATE TABLE tipo_pago (
+    id       INTEGER NOT NULL,
+    nombre   VARCHAR2(255)
+);
+
+ALTER TABLE tipo_pago ADD CONSTRAINT tipo_pago_pk PRIMARY KEY ( id );
+
+CREATE TABLE tipo_transporte (
+    id         INTEGER NOT NULL,
+    nombre     VARCHAR2(255),
+    compañia   VARCHAR2(255)
+);
+
+ALTER TABLE tipo_transporte ADD CONSTRAINT tipo_transporte_pk PRIMARY KEY ( id );
+
+CREATE TABLE tipo_usuario (
+    id       INTEGER NOT NULL,
+    nombre   VARCHAR2(255)
+);
+
+ALTER TABLE tipo_usuario ADD CONSTRAINT tipo_usuario_pk PRIMARY KEY ( id );
+
+CREATE TABLE transporte (
+    id                   INTEGER NOT NULL,
+    n_pasajeros          INTEGER,
+    id_tipo_transporte   INTEGER NOT NULL
+);
+
+ALTER TABLE transporte ADD CONSTRAINT transporte_pk PRIMARY KEY ( id );
+
+CREATE TABLE usuario (
+    id                INTEGER NOT NULL,
+    user_name         VARCHAR2(255),
+    password          VARCHAR2(255),
+    id_tipo_usuario   INTEGER NOT NULL
+);
+
+ALTER TABLE usuario ADD CONSTRAINT usuario_pk PRIMARY KEY ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_actividad_fk FOREIGN KEY ( id_actividades )
+        REFERENCES actividad ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_alojamiento_fk FOREIGN KEY ( id_alojamiento )
+        REFERENCES alojamiento ( id );
+
+ALTER TABLE alojamiento
+    ADD CONSTRAINT id_ciudad_alojamiento_fk FOREIGN KEY ( id_ciudad_alojamiento )
+        REFERENCES ciudad_alojamiento ( id );
+
+ALTER TABLE curso
+    ADD CONSTRAINT id_colegio_fk FOREIGN KEY ( id_colegio )
+        REFERENCES colegio ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_contrato_fk FOREIGN KEY ( id_contrato )
+        REFERENCES contrato ( id );
+
+ALTER TABLE alumno
+    ADD CONSTRAINT id_curso_fk FOREIGN KEY ( id_curso )
+        REFERENCES curso ( id );
+
+ALTER TABLE contrato
+    ADD CONSTRAINT id_curso_fkv2 FOREIGN KEY ( id_curso )
+        REFERENCES curso ( id );
+
+ALTER TABLE destino
+    ADD CONSTRAINT id_destino_ciudad_fk FOREIGN KEY ( id_ciudad_destino )
+        REFERENCES destino_ciudad ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_destino_fk FOREIGN KEY ( id_destino )
+        REFERENCES destino ( id );
+
+ALTER TABLE destino_ciudad
+    ADD CONSTRAINT id_destino_pais_fk FOREIGN KEY ( id_pais )
+        REFERENCES destino_pais ( id );
+
+ALTER TABLE ciudad_alojamiento
+    ADD CONSTRAINT id_pais_alojamiento_fk FOREIGN KEY ( id_pais )
+        REFERENCES pais_alojamiento ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_seguro_fk FOREIGN KEY ( id_seguro )
+        REFERENCES seguro ( id );
+
+ALTER TABLE cliente
+    ADD CONSTRAINT id_tipo_cliente_fk FOREIGN KEY ( id_tipo_cliente )
+        REFERENCES tipo_cliente ( id );
+
+ALTER TABLE pago
+    ADD CONSTRAINT id_tipo_pago_fk FOREIGN KEY ( id_tipo_pago )
+        REFERENCES tipo_pago ( id );
+
+ALTER TABLE transporte
+    ADD CONSTRAINT id_tipo_transporte_fk FOREIGN KEY ( id_tipo_transporte )
+        REFERENCES tipo_transporte ( id );
+
+ALTER TABLE usuario
+    ADD CONSTRAINT id_tipo_usuario_fk FOREIGN KEY ( id_tipo_usuario )
+        REFERENCES tipo_usuario ( id );
+
+ALTER TABLE personal_agencia
+    ADD CONSTRAINT id_tipo_usuario_fkv2 FOREIGN KEY ( id_tipo_usuario )
+        REFERENCES tipo_usuario ( id );
+
+ALTER TABLE cliente
+    ADD CONSTRAINT id_tipo_usuario_fkv3 FOREIGN KEY ( id_tipo_usuario )
+        REFERENCES tipo_usuario ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_transporte_fk FOREIGN KEY ( id_transporte )
+        REFERENCES transporte ( id );
+
+ALTER TABLE pago
+    ADD CONSTRAINT rut_alumno_fk FOREIGN KEY ( rut_alumno )
+        REFERENCES alumno ( rut );
+
+ALTER TABLE alumno
+    ADD CONSTRAINT rut_apoderado_fk FOREIGN KEY ( rut_apoderado )
+        REFERENCES apoderado ( rut );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_actividad_fk FOREIGN KEY ( id_actividades )
+        REFERENCES actividad ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_alojamiento_fk FOREIGN KEY ( id_alojamiento )
+        REFERENCES alojamiento ( id );
+
+ALTER TABLE alojamiento
+    ADD CONSTRAINT id_ciudad_alojamiento_fk FOREIGN KEY ( id_ciudad_alojamiento )
+        REFERENCES ciudad_alojamiento ( id );
+
+ALTER TABLE curso
+    ADD CONSTRAINT id_colegio_fk FOREIGN KEY ( id_colegio )
+        REFERENCES colegio ( id );
+
+ALTER TABLE alumno
+    ADD CONSTRAINT id_curso_fk FOREIGN KEY ( id_curso )
+        REFERENCES curso ( id );
+
+ALTER TABLE contrato
+    ADD CONSTRAINT id_curso_fkv2 FOREIGN KEY ( id_curso )
+        REFERENCES curso ( id );
+
+ALTER TABLE destino
+    ADD CONSTRAINT id_destino_ciudad_fk FOREIGN KEY ( id_ciudad_destino )
+        REFERENCES destino_ciudad ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_destino_fk FOREIGN KEY ( id_destino )
+        REFERENCES destino ( id );
+
+ALTER TABLE destino_ciudad
+    ADD CONSTRAINT id_destino_pais_fk FOREIGN KEY ( id_pais )
+        REFERENCES destino_pais ( id );
+
+ALTER TABLE ciudad_alojamiento
+    ADD CONSTRAINT id_pais_alojamiento_fk FOREIGN KEY ( id_pais )
+        REFERENCES pais_alojamiento ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_seguro_fk FOREIGN KEY ( id_seguro )
+        REFERENCES seguro ( id );
+
+ALTER TABLE cliente
+    ADD CONSTRAINT id_tipo_cliente_fk FOREIGN KEY ( id_tipo_cliente )
+        REFERENCES tipo_cliente ( id );
+
+ALTER TABLE pago
+    ADD CONSTRAINT id_tipo_pago_fk FOREIGN KEY ( id_tipo_pago )
+        REFERENCES tipo_pago ( id );
+
+ALTER TABLE transporte
+    ADD CONSTRAINT id_tipo_transporte_fk FOREIGN KEY ( id_tipo_transporte )
+        REFERENCES tipo_transporte ( id );
+
+ALTER TABLE usuario
+    ADD CONSTRAINT id_tipo_usuario_fk FOREIGN KEY ( id_tipo_usuario )
+        REFERENCES tipo_usuario ( id );
+
+ALTER TABLE personal_agencia
+    ADD CONSTRAINT id_tipo_usuario_fkv2 FOREIGN KEY ( id_tipo_usuario )
+        REFERENCES tipo_usuario ( id );
+
+ALTER TABLE cliente
+    ADD CONSTRAINT id_tipo_usuario_fkv3 FOREIGN KEY ( id_tipo_usuario )
+        REFERENCES tipo_usuario ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_transporte_fk FOREIGN KEY ( id_transporte )
+        REFERENCES transporte ( id );
+
+ALTER TABLE paquete_viaje
+    ADD CONSTRAINT id_contrato_fk FOREIGN KEY ( id_contrato )
+        REFERENCES contrato ( id );
+
+ALTER TABLE pago
+    ADD CONSTRAINT rut_alumno_fk FOREIGN KEY ( rut_alumno )
+        REFERENCES alumno ( rut );
+
+ALTER TABLE alumno
+    ADD CONSTRAINT rut_apoderado_fk FOREIGN KEY ( rut_apoderado )
+        REFERENCES apoderado ( rut );
+        
+-- modificaciones modelo 
+ALTER TABLE "ALUMNO" MODIFY ("RUT_APODERADO" NULL);
+ALTER TABLE "USUARIO" ADD ("EMAIL" VARCHAR2(255) NOT NULL);
+ALTER TABLE "PAGO" ADD ("FECHA" DATE NOT NULL);
+
+CREATE TABLE "ACTIVIDAD_PAGO" (
+  "ID" NUMBER NOT NULL,
+  "DESCRIPCION" VARCHAR2(255) NOT NULL,
+  "MONTO" NUMBER NOT NULL,
+  "ID_CURSO" NUMBER NOT NULL,
+  CONSTRAINT "FK_ACTIVIDAD_CURSO_CURSO" 
+    FOREIGN KEY ( "ID_CURSO")
+       REFERENCES "CURSO" ( ID) 
+    ENABLE 
+    VALIDATE,
+  CONSTRAINT "PK_ACTIVIDAD_CURSO" 
+    PRIMARY KEY ( "ID") 
+    ENABLE 
+    VALIDATE);
+ALTER TABLE "ACTIVIDAD_PAGO" ADD ("FECHA" DATE NOT NULL);
+
+-- sequence
+
+CREATE SEQUENCE id_usuario_seq START WITH 1;
+CREATE SEQUENCE id_colegio_seq START WITH 1;
+CREATE SEQUENCE id_curso_seq START WITH 1;
+CREATE SEQUENCE id_pago_seq START WITH 1;
+
+-- triggers
+CREATE OR REPLACE TRIGGER id_usuario_autoincremental
+BEFORE INSERT ON usuario 
+FOR EACH ROW
+
+BEGIN
+  SELECT id_usuario_seq.NEXTVAL
+  INTO   :new.id
+  FROM   dual;
+END;
+
+CREATE OR REPLACE TRIGGER id_colegio_autoincremental
+BEFORE INSERT ON colegio 
+FOR EACH ROW
+
+BEGIN
+  SELECT id_colegio_seq.NEXTVAL
+  INTO   :new.id
+  FROM   dual;
+END;
+
+CREATE OR REPLACE TRIGGER id_curso_seq
+BEFORE INSERT ON curso 
+FOR EACH ROW
+
+BEGIN
+  SELECT id_curso_seq.NEXTVAL
+  INTO   :new.id
+  FROM   dual;
+END; 
+
+CREATE OR REPLACE TRIGGER id_pago_seq
+BEFORE INSERT ON pago 
+FOR EACH ROW
+
+BEGIN
+  SELECT id_pago_seq.NEXTVAL
+  INTO   :new.id
+  FROM   dual;
+END; 

@@ -1,0 +1,85 @@
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\obj\Debug\WSOnTour.Logica.csprojAssemblyReference.cache
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\obj\Debug\WSOnTour.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\obj\Debug\WSOnTour.Logica.csproj.CopyComplete
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\bin\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\bin\Debug\WSOnTour.Logica.pdb
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\bin\Debug\WSOnTour.DTOs.dll
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\bin\Debug\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\obj\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\source\repos\WSOnTour\WSa\obj\Debug\WSOnTour.Logica.pdb
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.pdb
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.dll
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csprojAssemblyReference.cache
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csproj.CopyComplete
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\source\repos\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.pdb
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.dll.config
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.pdb
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\SendGrid.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Net.Http.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.dll.config
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\SendGrid.pdb
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\SendGrid.xml
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csprojAssemblyReference.cache
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csproj.CopyComplete
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\source\repos\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.pdb
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.dll.config
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.pdb
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\SendGrid.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Net.Http.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.dll.config
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\SendGrid.pdb
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\SendGrid.xml
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csproj.CopyComplete
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.pdb
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.dll.config
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.Logica.pdb
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\SendGrid.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Net.Http.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\WSOnTour.DTOs.dll.config
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\SendGrid.pdb
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\bin\Debug\SendGrid.xml
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.csproj.CopyComplete
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\WSOnTour\WSOnTour.Logica\obj\Debug\WSOnTour.Logica.pdb
