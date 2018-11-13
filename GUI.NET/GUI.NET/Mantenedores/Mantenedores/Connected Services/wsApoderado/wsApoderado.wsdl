@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ReadByUsername">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReadByUsernameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReadByUsernameResult" type="tns:Apoderado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Apoderado">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Rut" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre_completo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ap_paterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ap_materno" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetCursos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rut" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCursosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCursosResult" type="tns:ArrayOfCurso" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCurso">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Curso" nillable="true" type="tns:Curso" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Curso">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nivel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Letra" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Grado" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_colegio" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAlumnosInCursos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_curso" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="rut" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAlumnosInCursosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAlumnosInCursosResult" type="tns:ArrayOfAlumno" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAlumno">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Alumno" nillable="true" type="tns:Alumno" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Alumno">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Rut" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre_completo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ap_paterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ap_materno" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_curso" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Rut_apoderado" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAlumnoByRut">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rut_apoderado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rut_alumno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAlumnoByRutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAlumnoByRutResult" type="tns:Alumno" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ReadByUsernameSoapIn">
+    <wsdl:part name="parameters" element="tns:ReadByUsername" />
+  </wsdl:message>
+  <wsdl:message name="ReadByUsernameSoapOut">
+    <wsdl:part name="parameters" element="tns:ReadByUsernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCursosSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCursos" />
+  </wsdl:message>
+  <wsdl:message name="GetCursosSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCursosResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAlumnosInCursosSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAlumnosInCursos" />
+  </wsdl:message>
+  <wsdl:message name="GetAlumnosInCursosSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAlumnosInCursosResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAlumnoByRutSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAlumnoByRut" />
+  </wsdl:message>
+  <wsdl:message name="GetAlumnoByRutSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAlumnoByRutResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsApoderadoSoap">
+    <wsdl:operation name="ReadByUsername">
+      <wsdl:input message="tns:ReadByUsernameSoapIn" />
+      <wsdl:output message="tns:ReadByUsernameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCursos">
+      <wsdl:input message="tns:GetCursosSoapIn" />
+      <wsdl:output message="tns:GetCursosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumnosInCursos">
+      <wsdl:input message="tns:GetAlumnosInCursosSoapIn" />
+      <wsdl:output message="tns:GetAlumnosInCursosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumnoByRut">
+      <wsdl:input message="tns:GetAlumnoByRutSoapIn" />
+      <wsdl:output message="tns:GetAlumnoByRutSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsApoderadoSoap" type="tns:wsApoderadoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReadByUsername">
+      <soap:operation soapAction="http://tempuri.org/ReadByUsername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCursos">
+      <soap:operation soapAction="http://tempuri.org/GetCursos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumnosInCursos">
+      <soap:operation soapAction="http://tempuri.org/GetAlumnosInCursos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumnoByRut">
+      <soap:operation soapAction="http://tempuri.org/GetAlumnoByRut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsApoderadoSoap12" type="tns:wsApoderadoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReadByUsername">
+      <soap12:operation soapAction="http://tempuri.org/ReadByUsername" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCursos">
+      <soap12:operation soapAction="http://tempuri.org/GetCursos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumnosInCursos">
+      <soap12:operation soapAction="http://tempuri.org/GetAlumnosInCursos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumnoByRut">
+      <soap12:operation soapAction="http://tempuri.org/GetAlumnoByRut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsApoderado">
+    <wsdl:port name="wsApoderadoSoap" binding="tns:wsApoderadoSoap">
+      <soap:address location="http://localhost:51371/wsApoderado.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsApoderadoSoap12" binding="tns:wsApoderadoSoap12">
+      <soap12:address location="http://localhost:51371/wsApoderado.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

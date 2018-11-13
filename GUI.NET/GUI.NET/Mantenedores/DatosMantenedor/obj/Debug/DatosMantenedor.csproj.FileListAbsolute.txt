@@ -1,0 +1,11 @@
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\bin\Debug\DatosMantenedor.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\bin\Debug\DatosMantenedor.pdb
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\obj\Debug\DatosMantenedor.csproj.CoreCompileInputs.cache
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\obj\Debug\DatosMantenedor.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\obj\Debug\DatosMantenedor.pdb
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\DatosMantenedor\bin\Debug\DatosMantenedor.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\DatosMantenedor\bin\Debug\DatosMantenedor.pdb
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\DatosMantenedor\obj\Debug\DatosMantenedor.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\DatosMantenedor\obj\Debug\DatosMantenedor.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\DatosMantenedor\obj\Debug\DatosMantenedor.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\DatosMantenedor\obj\Debug\DatosMantenedor.pdb

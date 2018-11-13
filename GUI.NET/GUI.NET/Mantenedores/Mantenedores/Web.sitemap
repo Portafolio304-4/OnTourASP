@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="mantenedorUsuario.aspx" title="mantenedorUsuarios"  description="mantenedor de usuarios">
+    <siteMapNode url="mantenedorOficina.aspx" title="mantenedorOficina"  description="mantenedor de oficina" />
+    <siteMapNode url="mantenedorComuna.aspx" title="mantenedorComuna"  description="mantenedor de comuna" />    
+    <siteMapNode url="mantenedorEmpresa.aspx" title="mantenedorEmpresa"  description="mantenedor de la empresa" />
+    <siteMapNode url="mantenedorPiso.aspx" title="mantenedorPiso"  description="mantenedor de los pisos" />
+    <siteMapNode url="mantenedorSucursal.aspx" title="mantenedorSucursal"  description="mantenedor de las sucursales" />    
+    <siteMapNode url="mantenedorArea.aspx" title="mantenedorArea"  description="mantenedor de area" />
+    <siteMapNode url="mantenedor.aspx" title="mantenedor"  description="mantenedor de los pisos" />
+  </siteMapNode>
+</siteMap>

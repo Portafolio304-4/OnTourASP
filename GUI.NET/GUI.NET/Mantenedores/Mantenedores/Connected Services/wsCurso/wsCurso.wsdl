@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ReadAllByColegio">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReadAllByColegioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReadAllByColegioResult" type="tns:ArrayOfCurso" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCurso">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Curso" nillable="true" type="tns:Curso" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Curso">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nivel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Letra" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Grado" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_colegio" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="VerifyApoderadoInCurso">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="rut" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerifyApoderadoInCursoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="VerifyApoderadoInCursoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ReadAllByColegioSoapIn">
+    <wsdl:part name="parameters" element="tns:ReadAllByColegio" />
+  </wsdl:message>
+  <wsdl:message name="ReadAllByColegioSoapOut">
+    <wsdl:part name="parameters" element="tns:ReadAllByColegioResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerifyApoderadoInCursoSoapIn">
+    <wsdl:part name="parameters" element="tns:VerifyApoderadoInCurso" />
+  </wsdl:message>
+  <wsdl:message name="VerifyApoderadoInCursoSoapOut">
+    <wsdl:part name="parameters" element="tns:VerifyApoderadoInCursoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsCursoSoap">
+    <wsdl:operation name="ReadAllByColegio">
+      <wsdl:input message="tns:ReadAllByColegioSoapIn" />
+      <wsdl:output message="tns:ReadAllByColegioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyApoderadoInCurso">
+      <wsdl:input message="tns:VerifyApoderadoInCursoSoapIn" />
+      <wsdl:output message="tns:VerifyApoderadoInCursoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsCursoSoap" type="tns:wsCursoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReadAllByColegio">
+      <soap:operation soapAction="http://tempuri.org/ReadAllByColegio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyApoderadoInCurso">
+      <soap:operation soapAction="http://tempuri.org/VerifyApoderadoInCurso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsCursoSoap12" type="tns:wsCursoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReadAllByColegio">
+      <soap12:operation soapAction="http://tempuri.org/ReadAllByColegio" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyApoderadoInCurso">
+      <soap12:operation soapAction="http://tempuri.org/VerifyApoderadoInCurso" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsCurso">
+    <wsdl:port name="wsCursoSoap" binding="tns:wsCursoSoap">
+      <soap:address location="http://localhost:51371/wsCurso.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsCursoSoap12" binding="tns:wsCursoSoap12">
+      <soap12:address location="http://localhost:51371/wsCurso.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,5 @@
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\bin\Release\DatosMantenedor.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\bin\Release\DatosMantenedor.pdb
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\obj\Release\DatosMantenedor.csproj.CoreCompileInputs.cache
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\obj\Release\DatosMantenedor.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\DatosMantenedor\obj\Release\DatosMantenedor.pdb

@@ -1,0 +1,610 @@
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\Mantenedores.dll.config
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\Mantenedores.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\Mantenedores.pdb
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\csc.exe
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\csc.exe.config
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\csc.rsp
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\csi.exe
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\csi.exe.config
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\csi.rsp
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.AppContext.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Collections.Immutable.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Console.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.Process.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.IO.Compression.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.IO.Pipes.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Reflection.Metadata.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Security.AccessControl.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Security.Claims.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Threading.Thread.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.ValueTuple.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\vbc.exe
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\vbc.exe.config
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\vbc.rsp
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe.config
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\DatosMantenedor.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\DatosMantenedor.pdb
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csprojResolveAssemblyReference.cache
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CoreCompileInputs.cache
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\obj\Debug\Mantenedores.dll
+E:\Cristian\Documentos\SitioWeb\Mantenedores\Mantenedores\obj\Debug\Mantenedores.pdb
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csprojResolveAssemblyReference.cache
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CoreCompileInputs.cache
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\obj\Debug\Mantenedores.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\obj\Debug\Mantenedores.pdb
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\Mantenedores.dll.config
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\Mantenedores.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\Mantenedores.pdb
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\csc.exe
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\csc.exe.config
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\csc.rsp
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\csi.exe
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\csi.exe.config
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\csi.rsp
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.AppContext.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Collections.Immutable.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Console.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.Process.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.IO.Compression.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.IO.Pipes.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Reflection.Metadata.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Security.AccessControl.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Security.Claims.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Threading.Thread.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.ValueTuple.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\vbc.exe
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\vbc.exe.config
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\vbc.rsp
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe.config
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\DatosMantenedor.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\DatosMantenedor.pdb
+D:\Escritorio\version final 2.0\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\Mantenedores.dll.config
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\Mantenedores.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\Mantenedores.pdb
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\csc.exe
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\csc.exe.config
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\csc.rsp
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\csi.exe
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\csi.exe.config
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\csi.rsp
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.AppContext.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Console.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\vbc.exe
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\vbc.exe.config
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\vbc.rsp
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CopyComplete
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\obj\Debug\Mantenedores.dll
+C:\Users\Sebastian\Desktop\version final entrega\Mantenedores\Mantenedores\obj\Debug\Mantenedores.pdb
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll.config
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.pdb
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe.config
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.rsp
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe.config
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.rsp
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.AppContext.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Console.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe.config
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.rsp
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CopyComplete
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.dll
+C:\Users\Sebastian\source\repos\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.pdb
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll.config
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.pdb
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe.config
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.rsp
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe.config
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.rsp
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.AppContext.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Console.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe.config
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.rsp
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Net.Http.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll.config
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.pdb
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll.config
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.xml
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.pdb
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.xml
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CopyComplete
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.pdb
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sebastian\source\repos\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll.config
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.pdb
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe.config
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.rsp
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe.config
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.rsp
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.AppContext.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Console.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe.config
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.rsp
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Net.Http.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll.config
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.pdb
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll.config
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.xml
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.pdb
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.xml
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CopyComplete
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.dll
+C:\Users\Sebastian\Desktop\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.pdb
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll.config
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.pdb
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe.config
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.rsp
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe.config
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.rsp
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.AppContext.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Console.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe.config
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.rsp
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Net.Http.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll.config
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.pdb
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll.config
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.xml
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.pdb
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.xml
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CopyComplete
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.dll
+C:\Users\Sebastian\Desktop\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.pdb
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll.config
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.pdb
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe.config
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.rsp
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe.config
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.rsp
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.AppContext.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Console.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe.config
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.rsp
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Net.Http.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll.config
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.pdb
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll.config
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.xml
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.pdb
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.xml
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CopyComplete
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.dll
+C:\Users\Sebastian\Desktop\v0.1\Nueva carpeta (2)\Ontour\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.pdb
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll.config
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Mantenedores.pdb
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.exe.config
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csc.rsp
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.exe.config
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\csi.rsp
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.AppContext.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Console.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.exe.config
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\vbc.rsp
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Net.Http.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.pdb
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.DTOs.dll.config
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.pdb
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\WSOnTour.Logica.dll.config
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\Newtonsoft.Json.xml
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.pdb
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\bin\SendGrid.xml
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.csproj.CopyComplete
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.dll
+C:\Users\Sebastian\Desktop\Ontour\GUI.NET\GUI.NET\Mantenedores\Mantenedores\obj\Debug\Mantenedores.pdb

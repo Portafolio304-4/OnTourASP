@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageMantenedores.master.cs" Inherits="Mantenedores.MasterPageMantenedores" %>
+<!DOCTYPE html>
+<html>
+<head <%--runat=""--%>>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/stilo.css" rel="stylesheet" />
+
+    <title>Home | OnTour</title>
+    
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div id="header">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+
+                   
+
+
+
+                    <%--<asp:Panel ID="Panel1" runat="server" Visible="true">--%>   
+                        <div>
+                            <div class="col-md-2"><img src="imagenes/onTour.png" height="100" width="100" /></div>
+                            <%--<ul class="nav navbar-nav" >
+                                <li>
+                                    <img src="imagenes/logo.png" height="60" width="180" />
+                                </li>--%>
+                                
+                                <asp:Panel ID="plApoderado" runat="server" Visible="true">
+                                    <div class="col-md-8"><ul class="nav navbar-nav nav_fondo">
+                                        <li><a href="portadaUsuario.aspx">Inicio</a></li>
+                                        <li><a href="registrarPago.aspx">Registrar Pago</a></li>
+                                        <li><a href="registroActividad.aspx">Registrar Actividades</a></li>
+                                        <li><a href="contrato.aspx">Consultar Contrato</a></li>
+                                        <li><a href="estadoCuenta.aspx">Consultar Estado Cuenta</a></li>
+                                        <li><a href="polizaSeguro.aspx">Obtener poliza de seguro</a></li>          
+                                        </ul>
+                                    </div>
+                                </asp:Panel>
+                                <asp:Panel ID="plEncargado" runat="server" Visible="false">
+                                    <div class="col-md-8"><ul class="nav navbar-nav">
+                                        <li><a href="portadaUsuario.aspx">Inicio</a></li>
+                                        <li><a href="registrarPago.aspx">Registrar Pago</a></li>
+                                        <li><a href="registroActividad.aspx">Registrar Actividades</a></li>
+                                        <li><a href="contrato.aspx">Consultar Contrato</a></li>
+                                        <li><a href="estadoCuenta.aspx">Consultar Estado Cuenta</a></li>
+                                        <li><a href="polizaSeguro.aspx">Obtener poliza de seguro</a></li>            
+                                        </ul>
+                                    </div>
+                                </asp:Panel>
+                               
+                            <%--</ul>--%>
+                        </div>
+                    <%--</asp:Panel>--%>
+                    <div class="navbar-header navbar-right">
+                        <a class="navbar-brand" href="#">
+                            <asp:Button CssClass="boton_sesion" ID="BtnCerrarSesion" runat="server" Text="Cerrar Sesion" OnClick="BtnCerrarSesion_Click" /><br />
+                            <center><asp:Label ID="lblActivo" runat="server" Text=""></asp:Label></center>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="body">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            <%--<asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" StaticSubMenuIndent="16px" Orientation="Horizontal" StaticDisplayLevels="2">
+            </asp:Menu>--%>
+
+
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            <br />
+
+        </div>
+       
+    </form>
+    <a href="#" class="back-to-top"><i class="fa fa-2x fa-angle-up"></i></a>
+
+
+
+
+</body>
+    
+    <div class="color_negro veamos">
+            <br />
+            <div class="col-md-4">
+                <asp:Label ID="Label2" runat="server" Text="© 2018 OnTour. All Rights Reserved. "></asp:Label>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <br />
+            <br />
+
+
+
+        </div>
+        
+
+
+</html>
+
