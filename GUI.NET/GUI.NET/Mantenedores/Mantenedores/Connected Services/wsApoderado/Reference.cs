@@ -355,6 +355,13 @@ namespace Mantenedores.wsApoderado {
         System.Threading.Tasks.Task<Mantenedores.wsApoderado.GetCursosResponse> GetCursosAsync(Mantenedores.wsApoderado.GetCursosRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento rut del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetCursosByColegio", ReplyAction="*")]
+        Mantenedores.wsApoderado.GetCursosByColegioResponse GetCursosByColegio(Mantenedores.wsApoderado.GetCursosByColegioRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetCursosByColegio", ReplyAction="*")]
+        System.Threading.Tasks.Task<Mantenedores.wsApoderado.GetCursosByColegioResponse> GetCursosByColegioAsync(Mantenedores.wsApoderado.GetCursosByColegioRequest request);
+        
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento rut del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAlumnosInCursos", ReplyAction="*")]
         Mantenedores.wsApoderado.GetAlumnosInCursosResponse GetAlumnosInCursos(Mantenedores.wsApoderado.GetAlumnosInCursosRequest request);
         
@@ -502,6 +509,78 @@ namespace Mantenedores.wsApoderado {
         
         public GetCursosResponseBody(Mantenedores.wsApoderado.Curso[] GetCursosResult) {
             this.GetCursosResult = GetCursosResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class GetCursosByColegioRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="GetCursosByColegio", Namespace="http://tempuri.org/", Order=0)]
+        public Mantenedores.wsApoderado.GetCursosByColegioRequestBody Body;
+        
+        public GetCursosByColegioRequest() {
+        }
+        
+        public GetCursosByColegioRequest(Mantenedores.wsApoderado.GetCursosByColegioRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class GetCursosByColegioRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string rut;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=1)]
+        public int id_colegio;
+        
+        public GetCursosByColegioRequestBody() {
+        }
+        
+        public GetCursosByColegioRequestBody(string rut, int id_colegio) {
+            this.rut = rut;
+            this.id_colegio = id_colegio;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class GetCursosByColegioResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="GetCursosByColegioResponse", Namespace="http://tempuri.org/", Order=0)]
+        public Mantenedores.wsApoderado.GetCursosByColegioResponseBody Body;
+        
+        public GetCursosByColegioResponse() {
+        }
+        
+        public GetCursosByColegioResponse(Mantenedores.wsApoderado.GetCursosByColegioResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class GetCursosByColegioResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public Mantenedores.wsApoderado.Curso[] GetCursosByColegioResult;
+        
+        public GetCursosByColegioResponseBody() {
+        }
+        
+        public GetCursosByColegioResponseBody(Mantenedores.wsApoderado.Curso[] GetCursosByColegioResult) {
+            this.GetCursosByColegioResult = GetCursosByColegioResult;
         }
     }
     
@@ -724,6 +803,33 @@ namespace Mantenedores.wsApoderado {
             inValue.Body = new Mantenedores.wsApoderado.GetCursosRequestBody();
             inValue.Body.rut = rut;
             return ((Mantenedores.wsApoderado.wsApoderadoSoap)(this)).GetCursosAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Mantenedores.wsApoderado.GetCursosByColegioResponse Mantenedores.wsApoderado.wsApoderadoSoap.GetCursosByColegio(Mantenedores.wsApoderado.GetCursosByColegioRequest request) {
+            return base.Channel.GetCursosByColegio(request);
+        }
+        
+        public Mantenedores.wsApoderado.Curso[] GetCursosByColegio(string rut, int id_colegio) {
+            Mantenedores.wsApoderado.GetCursosByColegioRequest inValue = new Mantenedores.wsApoderado.GetCursosByColegioRequest();
+            inValue.Body = new Mantenedores.wsApoderado.GetCursosByColegioRequestBody();
+            inValue.Body.rut = rut;
+            inValue.Body.id_colegio = id_colegio;
+            Mantenedores.wsApoderado.GetCursosByColegioResponse retVal = ((Mantenedores.wsApoderado.wsApoderadoSoap)(this)).GetCursosByColegio(inValue);
+            return retVal.Body.GetCursosByColegioResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Mantenedores.wsApoderado.GetCursosByColegioResponse> Mantenedores.wsApoderado.wsApoderadoSoap.GetCursosByColegioAsync(Mantenedores.wsApoderado.GetCursosByColegioRequest request) {
+            return base.Channel.GetCursosByColegioAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Mantenedores.wsApoderado.GetCursosByColegioResponse> GetCursosByColegioAsync(string rut, int id_colegio) {
+            Mantenedores.wsApoderado.GetCursosByColegioRequest inValue = new Mantenedores.wsApoderado.GetCursosByColegioRequest();
+            inValue.Body = new Mantenedores.wsApoderado.GetCursosByColegioRequestBody();
+            inValue.Body.rut = rut;
+            inValue.Body.id_colegio = id_colegio;
+            return ((Mantenedores.wsApoderado.wsApoderadoSoap)(this)).GetCursosByColegioAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]

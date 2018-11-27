@@ -32,6 +32,8 @@ namespace Mantenedores.wsUsuario {
         
         private int Id_tipo_usuarioField;
         
+        private int HabilitadoField;
+        
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string EmailField;
         
@@ -97,7 +99,20 @@ namespace Mantenedores.wsUsuario {
             }
         }
         
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=4)]
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=4)]
+        public int Habilitado {
+            get {
+                return this.HabilitadoField;
+            }
+            set {
+                if ((this.HabilitadoField.Equals(value) != true)) {
+                    this.HabilitadoField = value;
+                    this.RaisePropertyChanged("Habilitado");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=5)]
         public string Email {
             get {
                 return this.EmailField;

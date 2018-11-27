@@ -18,21 +18,21 @@
 
         <div class="row">
             <div class="col-md-4"><label>Colegio:</label></div>
-            <div class="col-md-4"><asp:DropDownList ID="DropColegio" runat="server"></asp:DropDownList></div>
+            <div class="col-md-4"><asp:DropDownList ID="DropColegio" runat="server" AutoPostBack="True"></asp:DropDownList></div>
             <div class="col-md-4"></div>
 
         </div>
 
         <div class="row">
             <div class="col-md-4"><label>Curso:</label></div>
-            <div class="col-md-4"><asp:DropDownList ID="dropCurso" runat="server"></asp:DropDownList></div>
+            <div class="col-md-4"><asp:DropDownList ID="dropCurso" runat="server" AutoPostBack="True"></asp:DropDownList></div>
             <div class="col-md-4"></div>
 
         </div>
 
         <div class="row">
             <div class="col-md-4">Rut Alumno</div>
-            <div class="col-md-4"><asp:DropDownList ID="dropRutAlumno" runat="server"></asp:DropDownList></div>
+            <div class="col-md-4"><asp:DropDownList ID="dropRutAlumno" runat="server" AutoPostBack="True"></asp:DropDownList></div>
             <div class="col-md-4"></div>
 
         </div>
@@ -40,7 +40,7 @@
             <div class="col-md-4"></div>
             
             <div class="col-md-4">
-               <center><asp:Button class="boton_azul" ID="btnEstadoCuenta" runat="server" Text="Buscar" /></center> 
+               <center><asp:Button class="boton_azul" ID="btnEstadoCuenta" runat="server" Text="Buscar" OnClick="btnEstadoCuenta_Click" /></center> 
                 
             </div>
             <div class="col-md-4"></div>

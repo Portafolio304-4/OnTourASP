@@ -13,6 +13,7 @@ namespace WSOnTour.DTOs
         private string user_name;
         private string password;
         private int id_tipo_usuario;
+        private int habilitado;
         private string email;
 
         public Usuario()
@@ -20,12 +21,13 @@ namespace WSOnTour.DTOs
             
         }
 
-        public Usuario(int id, string user_name, string password, int id_tipo_usuario, string email)
+        public Usuario(int id, string user_name, string password, int id_tipo_usuario, int habilitado, string email)
         {
             this.Id = id;
             this.User_name = user_name;
             this.Password = password;
             this.Id_tipo_usuario = id_tipo_usuario;
+            this.Habilitado = habilitado;
             this.Email = email;
         }
 
@@ -33,6 +35,7 @@ namespace WSOnTour.DTOs
         public string User_name { get => user_name; set => user_name = value; }
         public string Password { get => password; set => password = value; }
         public int Id_tipo_usuario { get => id_tipo_usuario; set => id_tipo_usuario = value; }
+        public int Habilitado { get => habilitado; set => habilitado = value; }
         public string Email { get => email; set => email = value; }
     }
 }

@@ -67,6 +67,7 @@
     <Compile Include="Model\ApoderadoModel.cs" />
     <Compile Include="Model\ColegioModel.cs" />
     <Compile Include="Model\CursoModel.cs" />
+    <Compile Include="Model\EstadoCuentaModel.cs" />
     <Compile Include="Model\PagoModel.cs" />
     <Compile Include="Model\UsuarioModel.cs" />
     <Compile Include="Conexion.cs" />

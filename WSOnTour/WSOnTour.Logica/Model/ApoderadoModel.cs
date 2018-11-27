@@ -91,6 +91,52 @@ namespace WSOnTour.Logica.Model
 
             return lista_curso;
         }
+
+        public List<Curso> GetCursosByColegio(int id_colegio)
+        {
+            this._connection = new OracleConnection();
+            this._connection.ConnectionString = this.conn_string;
+            this._connection.Open();
+
+            List<Curso> lista_curso = new List<Curso>();
+
+            string sql = "SELECT c.id, c.nivel, c.letra, c.grado " +
+                "FROM ALUMNO a " +
+                "JOIN CURSO c " +
+                "ON(a.id_curso = c.id) " +
+                "WHERE a.rut_apoderado=:rut " +
+                "AND c.id_colegio=:id_colegio";
+
+            OracleCommand command = new OracleCommand(sql, this._connection);
+            Apoderado apoderado = new Apoderado();
+            command.Parameters.Add(new OracleParameter("rut", OracleDbType.Varchar2)).Value = Apoderado.Rut;
+            command.Parameters.Add(new OracleParameter("rut", OracleDbType.Int32)).Value = id_colegio;
+            OracleDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                int id = reader.GetInt32(0);
+                string nivel = reader.GetString(1);
+                string letra = reader.GetString(2);
+                int grado = reader.GetInt32(3);
+
+
+                Curso curso = new Curso();
+                curso.Id = id;
+                curso.Nivel = nivel;
+                curso.Letra = letra;
+                curso.Grado = grado;
+
+                lista_curso.Add(curso);
+
+            }
+
+            this._connection.Close();
+            command.Dispose();
+
+            return lista_curso;
+        }
+
+
         public List<Alumno> GetAlumnosInCursos(int id)
         {
             this._connection = new OracleConnection();

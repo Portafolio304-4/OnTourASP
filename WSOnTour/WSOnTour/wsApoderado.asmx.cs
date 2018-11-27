@@ -40,6 +40,16 @@ namespace WSOnTour
         }
 
         [WebMethod]
+        public List<Curso> GetCursosByColegio(string rut, int id_colegio)
+        {
+            Apoderado apoderado = new Apoderado();
+            apoderado.Rut = rut;
+            ApoderadoModel query = new ApoderadoModel(apoderado);
+
+            return query.GetCursosByColegio(id_colegio);
+        }
+
+        [WebMethod]
         public List<Alumno> GetAlumnosInCursos(int id_curso, string rut)
         {
             Apoderado apoderado = new Apoderado();

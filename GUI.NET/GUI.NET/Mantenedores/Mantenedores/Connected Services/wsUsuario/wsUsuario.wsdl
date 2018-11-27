@@ -23,6 +23,7 @@
           <s:element minOccurs="0" maxOccurs="1" name="User_name" type="s:string" />
           <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
           <s:element minOccurs="1" maxOccurs="1" name="Id_tipo_usuario" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Habilitado" type="s:int" />
           <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
         </s:sequence>
       </s:complexType>

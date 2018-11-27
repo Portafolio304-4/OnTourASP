@@ -18,14 +18,14 @@
 
         <div class="row">
             <div class="col-md-4"><label>Colegio:</label></div>
-            <div class="col-md-4"><asp:DropDownList ID="DropColegio" runat="server"></asp:DropDownList></div>
+            <div class="col-md-4"><asp:DropDownList ID="DropColegio" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropColegio_SelectedIndexChanged"></asp:DropDownList></div>
             <div class="col-md-4"></div>
 
         </div>
 
         <div class="row">
             <div class="col-md-4"><label>Curso:</label></div>
-            <div class="col-md-4"><asp:DropDownList ID="dropCurso" runat="server"></asp:DropDownList></div>
+            <div class="col-md-4"><asp:DropDownList ID="dropCurso" runat="server" OnSelectedIndexChanged="dropCurso_SelectedIndexChanged"></asp:DropDownList></div>
             <div class="col-md-4"></div>
 
         </div>

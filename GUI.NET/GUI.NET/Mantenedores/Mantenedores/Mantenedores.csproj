@@ -127,6 +127,9 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <None Include="Connected Services\wsActividadPago\wsActividadPago.wsdl" />
+    <Content Include="Connected Services\wsApoderado\Mantenedores.wsApoderado.GetCursosByColegioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Connected Services\wsApoderado\wsApoderado.disco" />
     <None Include="Connected Services\wsApoderado\configuration91.svcinfo" />
     <None Include="Connected Services\wsApoderado\configuration.svcinfo" />
@@ -164,6 +167,16 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="Connected Services\wsEstadoCuenta\Mantenedores.wsEstadoCuenta.GetTotalPagadoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\wsEstadoCuenta\wsEstadoCuenta.disco" />
+    <None Include="Connected Services\wsEstadoCuenta\configuration91.svcinfo" />
+    <None Include="Connected Services\wsEstadoCuenta\configuration.svcinfo" />
+    <None Include="Connected Services\wsEstadoCuenta\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Connected Services\wsPago\Mantenedores.wsPago.CreateSinglePaidResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -182,6 +195,7 @@
     <Content Include="Connected Services\wsPago\Mantenedores.wsPago.ResumenPago.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <None Include="Connected Services\wsEstadoCuenta\wsEstadoCuenta.wsdl" />
     <None Include="Connected Services\wsPago\wsPago.disco" />
     <None Include="Connected Services\wsPago\configuration91.svcinfo" />
     <None Include="Connected Services\wsPago\configuration.svcinfo" />
@@ -285,6 +299,11 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Connected Services\wsCurso\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\wsEstadoCuenta\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -425,6 +444,7 @@
     <WCFMetadataStorage Include="Connected Services\wsApoderado\" />
     <WCFMetadataStorage Include="Connected Services\wsColegio\" />
     <WCFMetadataStorage Include="Connected Services\wsCurso\" />
+    <WCFMetadataStorage Include="Connected Services\wsEstadoCuenta\" />
     <WCFMetadataStorage Include="Connected Services\wsPago\" />
     <WCFMetadataStorage Include="Connected Services\wsPolizas\" />
     <WCFMetadataStorage Include="Connected Services\wsSendMail\" />

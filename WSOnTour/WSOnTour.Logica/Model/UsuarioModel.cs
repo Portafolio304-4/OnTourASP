@@ -41,7 +41,7 @@ namespace WSOnTour.Logica.Model
                 usuario_a_comparar.User_name = reader.GetString(1);
                 usuario_a_comparar.Password = reader.GetString(2);
                 usuario_a_comparar.Id_tipo_usuario = reader.GetInt32(3);
-                usuario_a_comparar.Email = reader.GetString(4);
+                usuario_a_comparar.Email = reader.GetString(5);
 
 
             }
