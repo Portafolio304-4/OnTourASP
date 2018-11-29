@@ -29,7 +29,7 @@ namespace WSOnTour
         {
             var text = $"Estimad@ {nombre_apoderado}, hemos confirmado su pago " +
                 $"para el alumno {nombre_alumno} por el monto de ${monto_abonado}";
-            var client = new SendGridClient("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");
+            var client = new SendGridClient("");
             var from = new EmailAddress("no-reply@ontour.cl", "Departamento de pagos");
             var subject = "Confirmacion de Pago";
             var to = new EmailAddress(reciber, nombre_apoderado);
@@ -49,7 +49,7 @@ namespace WSOnTour
         {
             var text = $"Estimad@ {nombre_apoderado}, hemos confirmado su pago de actividad " +
                 $"para el curso {curso} por el monto de ${monto_abonado}";
-            var client = new SendGridClient("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");
+            var client = new SendGridClient("");
             var from = new EmailAddress("no-reply@ontour.cl", "Departamento de pagos");
             var subject = "Confirmacion de Pago";
             var to = new EmailAddress(reciber, nombre_apoderado);

@@ -45,7 +45,7 @@ namespace Mantenedores
                         usuario.Email = txtEmail.Text;
                         if (this.chkEncargado.Checked)
                         {
-                            id_tipo_usuario = 2;
+                            id_tipo_usuario = 4;
                         }
                         usuario.Id_tipo_usuario = id_tipo_usuario;
                         wsUsuario.wsUsuarioSoapClient cliente_usuario = new wsUsuario.wsUsuarioSoapClient();
