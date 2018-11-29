@@ -24,7 +24,14 @@ namespace Mantenedores
                     wsApoderado.wsApoderadoSoapClient apoderado = new wsApoderado.wsApoderadoSoapClient();
                     apo = apoderado.ReadByUsername(user.User_name);
                     this.lblActivo.Text = apo.Nombre_completo.ToString();
-                    
+
+                    if (user.Id_tipo_usuario != 1)
+                    {
+                        this.Session.Clear();
+                        Response.Redirect("iniciarSesion.aspx");
+
+                    }
+
                 }
 
 
@@ -42,6 +49,7 @@ namespace Mantenedores
         protected void BtnCerrarSesion_Click(object sender, EventArgs e)
         {
             this.Session["validaLogin"] = null;
+            this.Session.Clear();
             Server.Transfer("iniciarSesion.aspx");
         }
     }

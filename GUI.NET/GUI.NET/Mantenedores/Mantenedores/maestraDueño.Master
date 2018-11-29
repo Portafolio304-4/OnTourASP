@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="css/stilo.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="imagenes/onTour.png" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -34,23 +35,27 @@
 
 
 
-                    <%--<asp:Panel ID="Panel1" runat="server" Visible="true">--%>   
-                        <div>
-                            <div class="col-md-2"><img src="imagenes/onTour.png" height="60" width="100" /></div>
-                            <%--<ul class="nav navbar-nav" >
+                    <%--<asp:Panel ID="Panel1" runat="server" Visible="true">--%>
+                    <div>
+                        <div class="col-md-2">
+                            <img src="imagenes/onTour.png" height="60" width="100" />
+                        </div>
+                        <%--<ul class="nav navbar-nav" >
                                 <li>
                                     <img src="imagenes/logo.png" height="60" width="180" />
                                 </li>--%>
-                                
-                                <asp:Panel ID="Panel1" runat="server" Visible="true">
-                                    <div class="col-md-8"><ul class="nav navbar-nav">
-                                <li><a href="portadaDueno.aspx">Inicio</a></li>
-                                <li><a href="estadoAvance.aspx">Estado Avance</a></li>
-                                
-                                        </ul></div>
-                                </asp:Panel>
-                            <%--</ul>--%>
-                        </div>
+
+                        <asp:Panel ID="Panel1" runat="server" Visible="true">
+                            <div class="col-md-8">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="portadaDueno.aspx">Inicio</a></li>
+                                    <li><a href="estadoAvance.aspx">Estado Avance</a></li>
+
+                                </ul>
+                            </div>
+                        </asp:Panel>
+                        <%--</ul>--%>
+                    </div>
                     <%--</asp:Panel>--%>
                     <div class="navbar-header navbar-right">
                         <a class="navbar-brand" href="#">
@@ -95,7 +100,8 @@
 
 </body>
 
-    
+
 
 
 </html>
+

@@ -18,8 +18,10 @@ namespace Mantenedores
         protected void btnIniciarSesionLista_Click(object sender, EventArgs e)
         {
             wsUsuario.wsUsuarioSoapClient cliente_usuario = new wsUsuario.wsUsuarioSoapClient();
+
             string user_name = txtUsuario.Text;
             string password = txtPassword.Text;
+
 
             wsUsuario.Usuario user = cliente_usuario.Authenticate(user_name, password);
 
@@ -27,12 +29,17 @@ namespace Mantenedores
             {
                 lblResultado.Text = "Usuario o contraseña invalidos";
             }
+            else if (user.Id_tipo_usuario == 1)
+            {
+                Session["usuario"] = user;
+                Response.Redirect("portadaDueno.aspx");
+            }
             else
             {
                 Session["usuario"] = user;
                 Response.Redirect("portadaUsuario.aspx");
             }
-            
+
         }
 
 
