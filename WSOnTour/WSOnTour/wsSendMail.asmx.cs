@@ -19,7 +19,7 @@ namespace WSOnTour
     // [System.Web.Script.Services.ScriptService]
     public class wsSendMail : System.Web.Services.WebService
     {
-
+        string sendgrid_api = "";
         [WebMethod]
         public async Task<string> SendMailPaid(
             string reciber,
@@ -29,7 +29,7 @@ namespace WSOnTour
         {
             var text = $"Estimad@ {nombre_apoderado}, hemos confirmado su pago " +
                 $"para el alumno {nombre_alumno} por el monto de ${monto_abonado}";
-            var client = new SendGridClient("");
+            var client = new SendGridClient(this.sendgrid_api);
             var from = new EmailAddress("no-reply@ontour.cl", "Departamento de pagos");
             var subject = "Confirmacion de Pago";
             var to = new EmailAddress(reciber, nombre_apoderado);
@@ -49,7 +49,7 @@ namespace WSOnTour
         {
             var text = $"Estimad@ {nombre_apoderado}, hemos confirmado su pago de actividad " +
                 $"para el curso {curso} por el monto de ${monto_abonado}";
-            var client = new SendGridClient("");
+            var client = new SendGridClient(this.sendgrid_api);
             var from = new EmailAddress("no-reply@ontour.cl", "Departamento de pagos");
             var subject = "Confirmacion de Pago";
             var to = new EmailAddress(reciber, nombre_apoderado);

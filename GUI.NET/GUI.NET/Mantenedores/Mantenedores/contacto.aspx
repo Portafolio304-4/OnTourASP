@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Mantenedores.index" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contacto.aspx.cs" Inherits="Mantenedores.contacto" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript"></script>
@@ -9,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Home | OnTour</title>
+    <title>Home | OpenReality+</title>
     <%-- ------ CSS ------ --%>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -55,7 +54,7 @@
                         
                         <li><a href="contacto.aspx">Contacto</a></li>  
                         <li>
-                            <asp:Button CssClass="boton_sesion"  ID="btnIniciarSesion" runat="server" Text="Iniciar Sesion" OnClick="btnIniciarSesion_Click" />
+                            <asp:Button CssClass="boton_sesion"  ID="btnIniciarSesion" runat="server" Text="Iniciar Sesion" OnClick="btnIniciarSesion_Click"/>
 
                         </li>
                     </ul>
@@ -64,125 +63,100 @@
         </nav><!--/nav-->
  
     </header>
-        <section id="main-slider" class="no-margin">
-        <div class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
+        
+     
 
-                <div class="item active" style="background-image: url(imagenes/blue.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Ven a realizar Tu gira de estudio con nosotros...</h1>
-                                    <h2 class="animation animated-item-2"></h2>
-                                    <a class="btn-slide animation animated-item-3" href="iniciarSesion.aspx">inicia sesion.</a>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                   <img src="imagenes/onTour.png" height="450" width="450" class="img-responsive" />
-                                    
-                                </div>
-                            </div>
-
+        <section id="contact-info">
+     <br /> <br />  
+        <div class="center">                
+            <h2>¿Donde Estamos?</h2>
+            <%--<p class="lead">Get In Touch. More Bootstrap Templates will Update soon only for dot.net users...</p>--%>
+     
+        </div>
+        <div class="gmap-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 text-center">
+                        <div class="gmap">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.056269616732!2d-70.6186557851786!3d-33.49991310743781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d00be4a5fa81%3A0xcd8eaf5b1d547f64!2sDuoc+UC%3A+Sede+San+Joaqu%C3%ADn!5e0!3m2!1ses!2scl!4v1511541447165" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
-                </div><!--/.item-->
 
-                <div class="item" style="background-image: url(imagenes/2.png)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Viaja con nosotros...</h1>
-                                    <h2 class="animation animated-item-2"></h2>
-                                    <a class="btn-slide animation animated-item-3" href="iniciarSesion.aspx">Iniciar Sesion.</a>
-                                </div>
-                            </div>
+                    <div class="col-sm-7 map-content">
+                        <ul class="row">
+                            <li class="col-sm-6">
+                                <address>
+                                    <h5>Citt San Joaquin</h5>
+                                    <p><span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Av. Vicuña Mackenna 4917,</span> <br>
+                                        <span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Santiago, San Joaquín, Región Metropolitana.</span></p>
+                                    <p>&nbsp;</p>
+                                </address>
 
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <img src="imagenes/maleta.png" class="img-responsive"  height="450" width="450"/>
-                                </div>
-                            </div>
+                                
+                            </li>
 
-                        </div>
+
+                        </ul>
                     </div>
-                </div><!--/.item-->
-
-                <div class="item" style="background-image: url(imagenes/3.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Pide tu cotizacion.</h1>
-                                    <h2 class="animation animated-item-2">Es completamente gratis.</h2>
-                                    <a class="btn-slide animation animated-item-3" href="contacto.aspx">Contacto</a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <img src="imagenes/cotizar.png" height="450" width="450"" class="img-responsive">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <i class="fa fa-chevron-left"></i>
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <i class="fa fa-chevron-right"></i>
-        </a>
-    </section>
-        <!--/#main-slider-->
-        <section id="feature">
-        <div class="container">
-           <div class="center wow fadeInDown">
-                <h2>Caracteristicas</h2>
-                <%--<p class="lead">Easy to use, Responsive features, Mobile-first approach <br> Browser compatibility Bootstrap is compatible with all modern browsers</p>--%>
+                </div>
             </div>
-
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-th-list"></i>
-                            <h2>Personalizado</h2>
-                            <h3>Atencion personalizada para ti y tus amigos...</h3>
+        </div>
+    </section>
+    <!--/gmap_area -->
+    <section id="contact-page">
+        <div class="container">
+        <br />
+        <br />
+            <div class="center">        
+                <h2>Dejanos tu mensaje</h2>
+                <p class="lead">Deja tu consulta o sugerencia para ser respondida a la brevedad.</p>
+            </div> 
+            <div class="row contact-wrap"> 
+                <div class="status alert alert-success" style="display: none"></div>
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            <label>Nombre *</label>
+                               <asp:TextBox ID="txtName" CssClass="form-control" runat="server" ></asp:TextBox>
+                             </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <asp:TextBox ID="txtemail" CssClass="form-control" runat="server" ></asp:TextBox>
+                          
                         </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-th"></i>
-                            <h2>Seguro</h2>
-                            <h3>Solo te preocuparas de disfrutar y nosotros de todo lo demas.</h3>
+                        <div class="form-group">
+                            <label>Telefono:</label>
+                            <input type="number" class="form-control">
                         </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-cloud-download"></i>
-                            <h2>Guarda tus recuerdos</h2>
-                            <h3>despues de la gira puedes recuperar las fotos realizadas.</h3>
+                        <div class="form-group">
+                            <label>Compañia</label>
+                          <asp:TextBox ID="txtcmpnm" runat="server" CssClass="form-control" ></asp:TextBox>
+                        </div>                        
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label>Subject *</label>
+                            <asp:TextBox ID="txtsubject" runat="server" CssClass="form-control" ></asp:TextBox>
+                            
                         </div>
-                    </div><!--/.col-md-4-->
-                
-                   
-                </div><!--/.services-->
-            </div><!--/.row-->    
+                        <div class="form-group">
+                            <label>Mensaje *</label>
+                            <asp:TextBox ID="txtmsg" runat="server" CssClass="form-control"  Rows="8" TextMode="MultiLine"></asp:TextBox>
+                           
+                        </div>                        
+                        <div class="form-group">
+                            <asp:Button CssClass="boton_azul" ID="btnEnviarContacto" runat="server" Text="Enviar" />
+                        </div>
+                    </div>
+                </form> 
+            </div><!--/.row-->
         </div><!--/.container-->
     </section>
-    <!--/#feature-->
+    <!--/#contact-page-->
+
+
+
+
 
         <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -215,7 +189,7 @@
                 </div><!--/.col-md-3-->
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Duoc UC</h3>
+                        <h3>OnTour</h3>
                         <ul>
                             <li><a href="http://www.duoc.cl/adm/">Home</a></li>
                             
@@ -238,7 +212,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2018 <a target="_blank" href="http://aspxtemplates.com/" title="">Open Reality +</a>. All Rights Reserved.
+                    &copy; 2018 <a target="_blank" href="http://aspxtemplates.com/" title="">OnTour +</a>. All Rights Reserved.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
@@ -284,4 +258,3 @@
     </form>
 </body>
 </html>
-

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Iniciar Sesion | OpenReality+</title>
+    <title>Iniciar Sesion | OnTour</title>
     <%-- ------ CSS ------ --%>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -19,16 +19,16 @@
 
     <link href="css/stilo.css" rel="stylesheet" />
 
-    <link rel="shortcut icon" href="imagenes/open-reality-plus-sin-fondo.png" />
+    <link rel="shortcut icon" href="imagenes/onTour.png" />
 </head>
 <body>
     <form id="form1" runat="server">
 
         <%-- header--%>
 
-        <div style="background-color:#EEEEF2" class="row">
+        <div style="background-color: #EEEEF2" class="row">
             <div class="col-md-1"></div>
-            <div  class="col-md-10">
+            <div class="col-md-10">
 
                 <center><a href="index.aspx"><img src="imagenes/onTour.png"  height="" width="" /></a></center>
 
@@ -43,101 +43,104 @@
 
                 <center> 
             <div class="form-group">
-                <label for="nombreUsuario">Usuario:</label>
+                <center><label for="nombreUsuario">Usuario:</label></center>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="txtUsuario" runat="server" ErrorMessage="Debe ingresar un usuario"></asp:RequiredFieldValidator>
                 <asp:TextBox CssClass="form-control" ID="txtUsuario" runat="server"></asp:TextBox>
             </div>
             <div class="form-group">
-                <label for="contraseña">Contraseña:</label>
+                <center><label for="contraseña">Contraseña:</label></center>
                  <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="txtPassword" runat="server" ErrorMessage="Debe ingresar una Contraseña"></asp:RequiredFieldValidator>
                 <asp:TextBox CssClass="form-control" ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
             </div>
-            
-            <asp:Label ID="lblResultado" runat="server" Text=""></asp:Label>
             <br />
+            <asp:Label ID="lblResultado" runat="server" Text=""></asp:Label>
+            <br /><br /><br />
             <asp:Button CssClass="boton_azul" ID="btnIniciarSesion" runat="server" Text="iniciar Sesion" OnClick="btnIniciarSesionLista_Click" />
                    <br />    <br /> 
-            <asp:Button CssClass="boton_azul" ID="btnRegistro" runat="server" Text="Registrarme" OnClick="btnRegistarseLista_Click" />
+            <asp:Button CssClass="boton_azul" ID="btnRegistro" runat="server" Text="Registrarme" OnClick="btnRegistarseLista_Click" CausesValidation="False" />
 
                </center>
 
             </div>
             <div class="col-md-4"></div>
         </div>
-        
+
         <br />
 
 
 
         <%--pie de pagina--%>
-         <section id="bottom">
-        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Compañia</h3>
-                        <ul>
-                            <li><a href="#">¿Quienes somos?</a></li>
-                            
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terminos de uso</a></li>
-                            
-                            <li><a href="contacto.aspx">Contacto</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+        <section id="bottom">
+            <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="widget">
+                            <h3>Compañia</h3>
+                            <ul>
+                                <li><a href="#">¿Quienes somos?</a></li>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Soporte</h3>
-                        <ul>
-                            <li><a href="#">Faq</a></li>
-                           
-                            <li><a href="#">Documentacion</a></li>
-                           
-                            
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>OnTour</h3>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            
-                            <li><a href="#">Proyecto</a></li>
-                            <li><a href="#">OnTour</a></li>
-                            
-                            
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+                                <li><a href="#">Copyright</a></li>
+                                <li><a href="#">Terminos de uso</a></li>
 
-                
+                                <li><a href="contacto.aspx">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
 
-                
+                    <div class="col-md-3 col-sm-6">
+                        <div class="widget">
+                            <h3>Soporte</h3>
+                            <ul>
+                                <li><a href="#">Faq</a></li>
+
+                                <li><a href="#">Documentacion</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="widget">
+                            <h3>OnTour</h3>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+
+                                <li><a href="#">Proyecto</a></li>
+                                <li><a href="#">OnTour</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+
+
+
+
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
         <!--/#bottom-->
         <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2018 <a target="_blank" href="http://aspxtemplates.com/" title="">OnTour</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">¿Quienes somos?</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="contacto.aspx">Contactenos</a></li>
-                    </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        &copy; 2018 <a target="_blank" href="http://aspxtemplates.com/" title="">OnTour</a>. All Rights Reserved.
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="pull-right">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">¿Quienes somos?</a></li>
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="contacto.aspx">Contactenos</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <a href="#" class="back-to-top"><i class="fa fa-2x fa-angle-up"></i></a>
-    </footer>
+            <a href="#" class="back-to-top"><i class="fa fa-2x fa-angle-up"></i></a>
+        </footer>
         <!--/#footer-->
         <!-- Back To Top -->
         <script type="text/javascript">

@@ -11,7 +11,7 @@ namespace Mantenedores
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
             try
             {
                 if (this.Session["usuario"] == null)
@@ -27,33 +27,39 @@ namespace Mantenedores
                     this.lblActivo.Text = apo.Nombre_completo.ToString();
                     if (user.Id_tipo_usuario == 1)
                     {
-
-                        this.Master.FindControl("plEncargado").Visible = false;
-                        this.Master.FindControl("plApoderado").Visible = false;
-                        //this.Master.FindControl("plDueno").Visible = true;
+                        this.Session.Clear();
+                        Response.Redirect("iniciarSesion.aspx");
 
                     }
+                    //if (user.Id_tipo_usuario == 1)
+                    //{
 
-                    else if (user.Id_tipo_usuario == 2)
-                    {
-                        this.Master.FindControl("plEncargado").Visible = true;
-                        this.Master.FindControl("plApoderado").Visible = false;
-                        //this.Master.FindControl("plDueno").Visible = false;
-                    }
-                    else if (user.Id_tipo_usuario == 3)
-                    {
-                        this.Master.FindControl("plEncargado").Visible = false;
-                        this.Master.FindControl("plApoderado").Visible = true;
-                        /*this.Master.FindControl("plDueno").Visible = true;*/
-                    }
+                    //    this.Master.FindControl("plEncargado").Visible = false;
+                    //    this.Master.FindControl("plApoderado").Visible = false;
+                    //    //this.Master.FindControl("plDueno").Visible = true;
+
+                    //}
+
+                    //else if (user.Id_tipo_usuario == 2)
+                    //{
+                    //    this.Master.FindControl("plEncargado").Visible = true;
+                    //    this.Master.FindControl("plApoderado").Visible = false;
+                    //    //this.Master.FindControl("plDueno").Visible = false;
+                    //}
+                    //else if (user.Id_tipo_usuario == 3)
+                    //{
+                    //    this.Master.FindControl("plEncargado").Visible = false;
+                    //    this.Master.FindControl("plApoderado").Visible = true;
+                    //    /*this.Master.FindControl("plDueno").Visible = true;*/
+                    //}
                 }
 
 
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-              
+
             }
 
 
@@ -76,6 +82,6 @@ namespace Mantenedores
             get { return this.plEncargado.Visible; }
             set { plApoderado.Visible = value; }
         }
-        
+
     }
 }

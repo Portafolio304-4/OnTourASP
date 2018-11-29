@@ -245,6 +245,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="contacto.aspx" />
     <Content Include="contrato.aspx" />
     <Content Include="estadoAvance.aspx" />
     <Content Include="estadoAvanceDueno.aspx" />
@@ -327,6 +328,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="contacto.aspx.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contacto.aspx.designer.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
     </Compile>
     <Compile Include="contrato.aspx.cs">
       <DependentUpon>contrato.aspx</DependentUpon>

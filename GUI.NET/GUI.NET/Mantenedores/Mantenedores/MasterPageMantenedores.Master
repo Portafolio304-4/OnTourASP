@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageMantenedores.master.cs" Inherits="Mantenedores.MasterPageMantenedores" %>
+
 <!DOCTYPE html>
 <html>
 <head <%--runat=""--%>>
@@ -12,7 +13,7 @@
     <link href="css/stilo.css" rel="stylesheet" />
 
     <title>Home | OnTour</title>
-    
+    <link rel="shortcut icon" href="imagenes/onTour.png" />
 
 
     <asp:ContentPlaceHolder ID="head" runat="server">
