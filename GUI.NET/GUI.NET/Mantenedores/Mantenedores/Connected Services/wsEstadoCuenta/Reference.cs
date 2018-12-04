@@ -21,6 +21,18 @@ namespace Mantenedores.wsEstadoCuenta {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetTotalPagado", ReplyAction="*")]
         System.Threading.Tasks.Task<Mantenedores.wsEstadoCuenta.GetTotalPagadoResponse> GetTotalPagadoAsync(Mantenedores.wsEstadoCuenta.GetTotalPagadoRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetDeudaTotal", ReplyAction="*")]
+        int GetDeudaTotal(int curso);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetDeudaTotal", ReplyAction="*")]
+        System.Threading.Tasks.Task<int> GetDeudaTotalAsync(int curso);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetDeudaAlumno", ReplyAction="*")]
+        int GetDeudaAlumno(int curso);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetDeudaAlumno", ReplyAction="*")]
+        System.Threading.Tasks.Task<int> GetDeudaAlumnoAsync(int curso);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -147,6 +159,22 @@ namespace Mantenedores.wsEstadoCuenta {
             inValue.Body.rut = rut;
             inValue.Body.curso = curso;
             return ((Mantenedores.wsEstadoCuenta.wsEstadoCuentaSoap)(this)).GetTotalPagadoAsync(inValue);
+        }
+        
+        public int GetDeudaTotal(int curso) {
+            return base.Channel.GetDeudaTotal(curso);
+        }
+        
+        public System.Threading.Tasks.Task<int> GetDeudaTotalAsync(int curso) {
+            return base.Channel.GetDeudaTotalAsync(curso);
+        }
+        
+        public int GetDeudaAlumno(int curso) {
+            return base.Channel.GetDeudaAlumno(curso);
+        }
+        
+        public System.Threading.Tasks.Task<int> GetDeudaAlumnoAsync(int curso) {
+            return base.Channel.GetDeudaAlumnoAsync(curso);
         }
     }
 }

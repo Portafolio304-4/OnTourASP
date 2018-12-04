@@ -17,15 +17,8 @@
         <div class="col-md-10">
 
         <div class="row">
-            <div class="col-md-4"><label>Colegio:</label></div>
-            <div class="col-md-4"><asp:DropDownList ID="DropColegio" runat="server" AutoPostBack="True"></asp:DropDownList></div>
-            <div class="col-md-4"></div>
-
-        </div>
-
-        <div class="row">
             <div class="col-md-4"><label>Curso:</label></div>
-            <div class="col-md-4"><asp:DropDownList ID="dropCurso" runat="server" AutoPostBack="True"></asp:DropDownList></div>
+            <div class="col-md-4"><asp:DropDownList ID="dropCurso" runat="server" AutoPostBack="True" OnSelectedIndexChanged="dropCurso_SelectedIndexChanged1"></asp:DropDownList></div>
             <div class="col-md-4"></div>
 
         </div>

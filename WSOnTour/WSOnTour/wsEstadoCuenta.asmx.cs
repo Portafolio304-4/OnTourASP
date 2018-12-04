@@ -24,5 +24,19 @@ namespace WSOnTour
             EstadoCuentaModel ec = new EstadoCuentaModel();
             return ec.EstadoCuentaPago(rut, curso);
         }
+
+        [WebMethod]
+        public int GetDeudaTotal(int curso)
+        {
+            EstadoCuentaModel ec = new EstadoCuentaModel();
+            return ec.EstadoCuentaDeudaPaquete(curso);
+        }
+
+        [WebMethod]
+        public int GetDeudaAlumno(int curso)
+        {
+            EstadoCuentaModel ec = new EstadoCuentaModel();
+            return ec.EstadoCuentaDeudaAlumno(curso);
+        }
     }
 }

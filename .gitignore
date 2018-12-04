@@ -346,3 +346,6 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+*.dll
+*/Debug
+*/bin
