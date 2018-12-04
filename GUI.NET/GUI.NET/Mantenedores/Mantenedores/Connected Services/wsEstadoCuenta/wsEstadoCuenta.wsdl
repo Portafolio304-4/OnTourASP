@@ -17,6 +17,34 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="GetDeudaTotal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="curso" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDeudaTotalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDeudaTotalResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDeudaAlumno">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="curso" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDeudaAlumnoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDeudaAlumnoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="GetTotalPagadoSoapIn">
@@ -25,10 +53,30 @@
   <wsdl:message name="GetTotalPagadoSoapOut">
     <wsdl:part name="parameters" element="tns:GetTotalPagadoResponse" />
   </wsdl:message>
+  <wsdl:message name="GetDeudaTotalSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDeudaTotal" />
+  </wsdl:message>
+  <wsdl:message name="GetDeudaTotalSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDeudaTotalResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDeudaAlumnoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDeudaAlumno" />
+  </wsdl:message>
+  <wsdl:message name="GetDeudaAlumnoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDeudaAlumnoResponse" />
+  </wsdl:message>
   <wsdl:portType name="wsEstadoCuentaSoap">
     <wsdl:operation name="GetTotalPagado">
       <wsdl:input message="tns:GetTotalPagadoSoapIn" />
       <wsdl:output message="tns:GetTotalPagadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeudaTotal">
+      <wsdl:input message="tns:GetDeudaTotalSoapIn" />
+      <wsdl:output message="tns:GetDeudaTotalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeudaAlumno">
+      <wsdl:input message="tns:GetDeudaAlumnoSoapIn" />
+      <wsdl:output message="tns:GetDeudaAlumnoSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="wsEstadoCuentaSoap" type="tns:wsEstadoCuentaSoap">
@@ -42,11 +90,47 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetDeudaTotal">
+      <soap:operation soapAction="http://tempuri.org/GetDeudaTotal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeudaAlumno">
+      <soap:operation soapAction="http://tempuri.org/GetDeudaAlumno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="wsEstadoCuentaSoap12" type="tns:wsEstadoCuentaSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="GetTotalPagado">
       <soap12:operation soapAction="http://tempuri.org/GetTotalPagado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeudaTotal">
+      <soap12:operation soapAction="http://tempuri.org/GetDeudaTotal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeudaAlumno">
+      <soap12:operation soapAction="http://tempuri.org/GetDeudaAlumno" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
