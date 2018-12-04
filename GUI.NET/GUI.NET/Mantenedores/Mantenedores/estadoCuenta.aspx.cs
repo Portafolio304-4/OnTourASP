@@ -68,8 +68,8 @@ namespace Mantenedores
             int id_curso = int.Parse(this.dropCurso.SelectedValue);
             wsEstadoCuenta.wsEstadoCuentaSoapClient client_ec = new wsEstadoCuenta.wsEstadoCuentaSoapClient();
             int total_pagado = client_ec.GetTotalPagado(rut_alumno, id_curso);
-            int total_deuda = client_ec.GetDeudaAlumno(id_curso);
-            int total_deuda_alumno = client_ec.GetDeudaTotal(id_curso);
+            int total_deuda_alumno = client_ec.GetDeudaAlumno(id_curso);
+            int total_deuda = client_ec.GetDeudaTotal(id_curso);
 
 
         }

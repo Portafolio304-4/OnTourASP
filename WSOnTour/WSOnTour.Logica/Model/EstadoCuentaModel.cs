@@ -23,7 +23,7 @@ namespace WSOnTour.Logica.Model
             try
             {
                 // Create a Command object to call Get_Emp_No function.
-                OracleCommand cmd = new OracleCommand("CalcularEstadoCuenta", this._connection);
+                OracleCommand cmd = new OracleCommand("CalcularPagoAlumno", this._connection);
 
                 // CommandType is StoredProcedure
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -123,7 +123,7 @@ namespace WSOnTour.Logica.Model
             try
             {
                 // Create a Command object to call Get_Emp_No function.
-                OracleCommand cmd = new OracleCommand("CalcularDeudaAlumno", this._connection);
+                OracleCommand cmd = new OracleCommand("CalculaDeudaAlumno", this._connection);
 
                 // CommandType is StoredProcedure
                 cmd.CommandType = CommandType.StoredProcedure;
