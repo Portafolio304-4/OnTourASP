@@ -129,7 +129,7 @@ namespace Mantenedores
                         {
                             if (abono > deuda_total)
                             {
-                                lblMessage.Text = "No puede cancelar un monto mayor, a la deuda actual que sos tiene";
+                                lblMessage.Text = "No puede cancelar un monto mayor, a la deuda actual que sostiene";
                             }
                             else
                             {

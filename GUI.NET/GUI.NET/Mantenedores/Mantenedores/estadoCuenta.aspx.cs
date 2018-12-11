@@ -94,7 +94,7 @@ namespace Mantenedores
                 int total_deuda_curso = client_ec.GetDeudaTotal(id_curso);
 
                 lblDeudaTotalAlumno.Text = "Deuda Total Alumno: $" + total_deuda_alumno.ToString();
-                lblTotalPagadoAlumno.Text = "Total Cancelado: $" + total_pagado_alumno.ToString();
+                lblTotalPagadoAlumno.Text = "Total Pagado: $" + total_pagado_alumno.ToString();
                 lblTotalPorPagarAlumno.Text = "Total Por Pagar: $" + (total_deuda_alumno - total_pagado_alumno).ToString();
 
                 lblDeudaTotalAlumno.Visible = true;

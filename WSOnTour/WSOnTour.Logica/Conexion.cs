@@ -11,7 +11,7 @@ namespace WSOnTour.Logica
     {
         public string getConexion()
         {
-            return "DATA SOURCE=Bena:1521/xe;USER ID=ONTOUR;PASSWORD=12345";
+            return "DATA SOURCE=DESKTOP-76O6GV0:1521/xe;USER ID=ONTOUR2;PASSWORD=ontour2";
         }
     }
 }

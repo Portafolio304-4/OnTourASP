@@ -92,6 +92,7 @@
     <Content Include="wsActividadPago.asmx" />
     <Content Include="wsApoderado.asmx" />
     <Content Include="wsColegio.asmx" />
+    <Content Include="wsContrato.asmx" />
     <Content Include="wsCurso.asmx" />
     <Content Include="wsEstadoCuenta.asmx" />
     <Content Include="wsPago.asmx" />
@@ -111,6 +112,10 @@
     </Compile>
     <Compile Include="wsColegio.asmx.cs">
       <DependentUpon>wsColegio.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="wsContrato.asmx.cs">
+      <DependentUpon>wsContrato.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="wsCurso.asmx.cs">
