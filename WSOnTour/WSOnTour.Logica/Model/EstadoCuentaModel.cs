@@ -163,5 +163,55 @@ namespace WSOnTour.Logica.Model
             }
             return total;
         }
+
+        public int EstadoCuentaTotalPagos(int id_curso)
+        {
+            this._connection = new OracleConnection();
+            this._connection.ConnectionString = this.conn_string;
+            this._connection.Open();
+            int total = 0;
+            try
+            {
+                // Create a Command object to call Get_Emp_No function.
+                OracleCommand cmd = new OracleCommand("CalcularPagoCurso", this._connection);
+
+                // CommandType is StoredProcedure
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                // ** Note: With Oracle, The return parameter must be added first.
+                // Create result Parameter (Varchar2(50))
+                OracleParameter resultParam = new OracleParameter("@Result", OracleDbType.Int32);
+
+                // ReturnValue
+                resultParam.Direction = ParameterDirection.ReturnValue;
+
+                // Add to parameters
+                cmd.Parameters.Add(resultParam);
+
+                // Add parameter @p_Emp_Id and set value = 100.
+                cmd.Parameters.Add("@curso", OracleDbType.Int32).Value = id_curso;
+
+                // Call function.
+                cmd.ExecuteNonQuery();
+
+
+                if (resultParam.Value != DBNull.Value)
+                {
+                    total = int.Parse(resultParam.Value.ToString());
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e);
+                Console.WriteLine(e.StackTrace);
+            }
+            finally
+            {
+                this._connection.Close();
+                this._connection.Dispose();
+            }
+            return total;
+        }
     }
 }

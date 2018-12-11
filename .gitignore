@@ -348,4 +348,4 @@ ASALocalRun/
 .localhistory/
 *.dll
 */Debug
-*/bin
+*/bin*

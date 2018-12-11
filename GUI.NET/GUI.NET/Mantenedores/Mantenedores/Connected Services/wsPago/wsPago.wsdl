@@ -3,50 +3,16 @@
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
       <s:element name="GetAllByAlumno">
-        <s:complexType />
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rut_alumno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
       </s:element>
       <s:element name="GetAllByAlumnoResponse">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="GetAllByAlumnoResult" type="tns:ArrayOfPago" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:complexType name="ArrayOfPago">
-        <s:sequence>
-          <s:element minOccurs="0" maxOccurs="unbounded" name="Pago" nillable="true" type="tns:Pago" />
-        </s:sequence>
-      </s:complexType>
-      <s:complexType name="Pago">
-        <s:sequence>
-          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
-          <s:element minOccurs="1" maxOccurs="1" name="Abono" type="s:int" />
-          <s:element minOccurs="0" maxOccurs="1" name="Rut_alumno" type="s:string" />
-          <s:element minOccurs="1" maxOccurs="1" name="Id_pago" type="s:int" />
-          <s:element minOccurs="1" maxOccurs="1" name="Fecha" type="s:dateTime" />
-        </s:sequence>
-      </s:complexType>
-      <s:element name="GetAllByCurso">
-        <s:complexType />
-      </s:element>
-      <s:element name="GetAllByCursoResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="GetAllByCursoResult" type="tns:ArrayOfPago" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="GetAllByApoderado">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="rut_apoderado" type="s:string" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="GetAllByApoderadoResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="GetAllByApoderadoResult" type="tns:ArrayOfResumenPago" />
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllByAlumnoResult" type="tns:ArrayOfResumenPago" />
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -65,6 +31,20 @@
           <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
         </s:sequence>
       </s:complexType>
+      <s:element name="GetAllByApoderado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rut_apoderado" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllByApoderadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllByApoderadoResult" type="tns:ArrayOfResumenPago" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
       <s:element name="CreateSinglePaid">
         <s:complexType>
           <s:sequence>
@@ -81,16 +61,6 @@
           </s:sequence>
         </s:complexType>
       </s:element>
-      <s:element name="CreateActivityPaid">
-        <s:complexType />
-      </s:element>
-      <s:element name="CreateActivityPaidResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="CreateActivityPaidResult" type="s:boolean" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="GetAllByAlumnoSoapIn">
@@ -98,12 +68,6 @@
   </wsdl:message>
   <wsdl:message name="GetAllByAlumnoSoapOut">
     <wsdl:part name="parameters" element="tns:GetAllByAlumnoResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetAllByCursoSoapIn">
-    <wsdl:part name="parameters" element="tns:GetAllByCurso" />
-  </wsdl:message>
-  <wsdl:message name="GetAllByCursoSoapOut">
-    <wsdl:part name="parameters" element="tns:GetAllByCursoResponse" />
   </wsdl:message>
   <wsdl:message name="GetAllByApoderadoSoapIn">
     <wsdl:part name="parameters" element="tns:GetAllByApoderado" />
@@ -117,20 +81,10 @@
   <wsdl:message name="CreateSinglePaidSoapOut">
     <wsdl:part name="parameters" element="tns:CreateSinglePaidResponse" />
   </wsdl:message>
-  <wsdl:message name="CreateActivityPaidSoapIn">
-    <wsdl:part name="parameters" element="tns:CreateActivityPaid" />
-  </wsdl:message>
-  <wsdl:message name="CreateActivityPaidSoapOut">
-    <wsdl:part name="parameters" element="tns:CreateActivityPaidResponse" />
-  </wsdl:message>
   <wsdl:portType name="wsPagoSoap">
     <wsdl:operation name="GetAllByAlumno">
       <wsdl:input message="tns:GetAllByAlumnoSoapIn" />
       <wsdl:output message="tns:GetAllByAlumnoSoapOut" />
-    </wsdl:operation>
-    <wsdl:operation name="GetAllByCurso">
-      <wsdl:input message="tns:GetAllByCursoSoapIn" />
-      <wsdl:output message="tns:GetAllByCursoSoapOut" />
     </wsdl:operation>
     <wsdl:operation name="GetAllByApoderado">
       <wsdl:input message="tns:GetAllByApoderadoSoapIn" />
@@ -140,24 +94,11 @@
       <wsdl:input message="tns:CreateSinglePaidSoapIn" />
       <wsdl:output message="tns:CreateSinglePaidSoapOut" />
     </wsdl:operation>
-    <wsdl:operation name="CreateActivityPaid">
-      <wsdl:input message="tns:CreateActivityPaidSoapIn" />
-      <wsdl:output message="tns:CreateActivityPaidSoapOut" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="wsPagoSoap" type="tns:wsPagoSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="GetAllByAlumno">
       <soap:operation soapAction="http://tempuri.org/GetAllByAlumno" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetAllByCurso">
-      <soap:operation soapAction="http://tempuri.org/GetAllByCurso" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -183,29 +124,11 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="CreateActivityPaid">
-      <soap:operation soapAction="http://tempuri.org/CreateActivityPaid" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="wsPagoSoap12" type="tns:wsPagoSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="GetAllByAlumno">
       <soap12:operation soapAction="http://tempuri.org/GetAllByAlumno" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetAllByCurso">
-      <soap12:operation soapAction="http://tempuri.org/GetAllByCurso" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -224,15 +147,6 @@
     </wsdl:operation>
     <wsdl:operation name="CreateSinglePaid">
       <soap12:operation soapAction="http://tempuri.org/CreateSinglePaid" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CreateActivityPaid">
-      <soap12:operation soapAction="http://tempuri.org/CreateActivityPaid" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

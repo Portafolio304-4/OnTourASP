@@ -140,6 +140,42 @@ namespace WSOnTour.Logica.Model
             return lista_pagos;
         }
 
+        public List<ResumenPago> GetAllByAlumno(string rut_alumno)
+        {
+            List<ResumenPago> lista_pagos = new List<ResumenPago>();
+            this._connection = new OracleConnection();
+            this._connection.ConnectionString = this.conn_string;
+            this._connection.Open();
+
+            string sql = "SELECT " +
+                "p.fecha, p.abono " +
+                "FROM " +
+                "PAGO p " +
+                "JOIN alumno a " +
+                "ON(p.rut_alumno = a.rut)";
+
+            OracleCommand command = new OracleCommand(sql, this._connection);
+            ResumenPago pago = new ResumenPago();
+            command.Parameters.Add(new OracleParameter("rut_alumno", OracleDbType.Varchar2)).Value = rut_alumno;
+            OracleDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                DateTime fecha = reader.GetDateTime(0);
+                int abono = reader.GetInt32(1);
+
+                pago = new ResumenPago();
+                pago.Fecha = fecha;
+                pago.Abono = abono;
+
+                lista_pagos.Add(pago);
+            }
+
+            this._connection.Close();
+            command.Dispose();
+
+            return lista_pagos;
+        }
+
 
         public bool CreatePaid()
         {

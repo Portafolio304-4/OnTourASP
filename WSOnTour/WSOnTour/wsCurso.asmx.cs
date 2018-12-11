@@ -38,5 +38,14 @@ namespace WSOnTour
             CursoModel query = new CursoModel(curso);
             return query.VerifyApoderadoInCurso(rut);
         }
+
+        [WebMethod]
+        public int CountAlumnosInCurso(int id)
+        {
+            Curso curso = new Curso();
+            curso.Id = id;
+            CursoModel query = new CursoModel(curso);
+            return query.CountAlumnosInCurso();
+        }
     }
 }
