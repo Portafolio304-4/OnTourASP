@@ -151,6 +151,22 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="Connected Services\wsContrato\Mantenedores.wsContrato.Contrato.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\wsContrato\Mantenedores.wsContrato.GetContratosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\wsContrato\Mantenedores.wsContrato.traerUnContratoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\wsContrato\wsContrato.disco" />
+    <None Include="Connected Services\wsContrato\configuration91.svcinfo" />
+    <None Include="Connected Services\wsContrato\configuration.svcinfo" />
+    <None Include="Connected Services\wsContrato\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Connected Services\wsCurso\Mantenedores.wsCurso.Curso.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -160,6 +176,7 @@
     <Content Include="Connected Services\wsCurso\Mantenedores.wsCurso.VerifyApoderadoInCursoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <None Include="Connected Services\wsContrato\wsContrato.wsdl" />
     <None Include="Connected Services\wsCurso\wsCurso.disco" />
     <None Include="Connected Services\wsCurso\configuration91.svcinfo" />
     <None Include="Connected Services\wsCurso\configuration.svcinfo" />
@@ -289,6 +306,11 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Connected Services\wsColegio\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\wsContrato\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -445,6 +467,7 @@
     <WCFMetadataStorage Include="Connected Services\wsActividadPago\" />
     <WCFMetadataStorage Include="Connected Services\wsApoderado\" />
     <WCFMetadataStorage Include="Connected Services\wsColegio\" />
+    <WCFMetadataStorage Include="Connected Services\wsContrato\" />
     <WCFMetadataStorage Include="Connected Services\wsCurso\" />
     <WCFMetadataStorage Include="Connected Services\wsEstadoCuenta\" />
     <WCFMetadataStorage Include="Connected Services\wsPago\" />

@@ -30,20 +30,33 @@
 
         </div>
 
-        <div class="row">
+      <%--  <div class="row">
             <div class="col-md-4">Rut Alumno</div>
             <div class="col-md-4"><asp:DropDownList ID="dropRutAlumno" runat="server"></asp:DropDownList></div>
             <div class="col-md-4"></div>
 
-        </div>
+        </div>--%>
         <div class="row">
             <div class="col-md-4"></div>
             
             <div class="col-md-4">
-               <center><asp:Button class="boton_azul" ID="btnBuscarContrato" runat="server" Text="Buscar" /></center> 
+               <center><asp:Button class="boton_azul" ID="btnBuscarContrato" runat="server" Text="Buscar" OnClick="btnBuscarContrato_Click" /></center> 
                 
             </div>
             <div class="col-md-4"></div>
+
+        </div>
+
+
+            <div class="row">
+            <div class="col-md-1"></div>
+            
+            <div class="col-md-10">
+               <br /><br />
+                <center><asp:Label ID="lblResultado" runat="server"></asp:Label></center>
+
+            </div>
+            <div class="col-md-1"></div>
 
         </div>
 
