@@ -20,15 +20,11 @@ namespace WSOnTour
     {
 
         [WebMethod]
-        public List<Pago> GetAllByAlumno()
+        public List<ResumenPago> GetAllByAlumno(string rut_alumno)
         {
-            return null;
-        }
-
-        [WebMethod]
-        public List<Pago> GetAllByCurso()
-        {
-            return null;
+            Pago pago = new Pago();
+            PagoModel query = new PagoModel(pago);
+            return query.GetAllByAlumno(rut_alumno);
         }
 
         [WebMethod]
@@ -38,6 +34,7 @@ namespace WSOnTour
             PagoModel query = new PagoModel(pago);
             return query.GetAllByApoderado(rut_apoderado);
         }
+
 
         [WebMethod]
         public bool CreateSinglePaid(int abono, string rut_alumno, int id_tipo_pago)
@@ -52,11 +49,7 @@ namespace WSOnTour
             return query.CreatePaid();
         }
 
-        [WebMethod]
-        public bool CreateActivityPaid()
-        {
-            return false;
-        }
+        
 
 
     }

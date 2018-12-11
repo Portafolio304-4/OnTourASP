@@ -29,6 +29,8 @@ namespace Mantenedores
                 {
                     Session["apoderado"] = apoderado;
                     loadDropCurso(user.User_name);
+                    ListItem first_element = new ListItem("Seleccione un Alumno", "-1");
+                    this.dropRutAlumno.Items.Add(first_element);
                     this.LoadGridHistoricoPagos(apoderado.Rut);
                 }
                 
@@ -61,11 +63,22 @@ namespace Mantenedores
             foreach (wsApoderado.Curso curso in cursos)
             {
                 ListItem item = new ListItem(curso.Nivel + " " + curso.Grado + curso.Letra, curso.Id.ToString());
-                this.dropCurso.Items.Add(item);
+
+                if (!this.dropCurso.Items.Contains(item))
+                {
+                    this.dropCurso.Items.Add(item);
+                }
 
             }
 
 
+        }
+        public int CalcularDeuda(string rut, int curso)
+        {
+            wsEstadoCuenta.wsEstadoCuentaSoapClient client_ec = new wsEstadoCuenta.wsEstadoCuentaSoapClient();
+            int deuda_alumno = client_ec.GetDeudaAlumno(curso);
+            int pago_alumno = client_ec.GetTotalPagado(rut, curso);
+            return deuda_alumno - pago_alumno;
         }
         public void loadDropRutAlumno(int id_curso, string rut)
         {
@@ -86,33 +99,75 @@ namespace Mantenedores
 
         protected  void btnPagar_Click(object sender, EventArgs e)
         {
-            int abono = int.Parse(this.txtMontoCancelar.Text);
-            string rut_alumno = this.dropRutAlumno.SelectedValue;
-            int id_tipo_pago = 1;
-
-            bool created = cliente_pago.CreateSinglePaid(abono, rut_alumno, id_tipo_pago);
-
-            if (created)
+            if (this.dropCurso.SelectedValue == "-1")
             {
-                this.lblMessage.Text = "Pago creado con exito";
-                wsApoderado.Apoderado apoderado = (wsApoderado.Apoderado)Session["apoderado"];
-                this.LoadGridHistoricoPagos(apoderado.Rut);
-
-                wsApoderado.Alumno alumno = cliente_apoderado.GetAlumnoByRut(apoderado.Rut, rut_alumno);
-                wsUsuario.Usuario user = (wsUsuario.Usuario)Session["usuario"];
-
-                string nombre_apoderado = $"{apoderado.Nombre_completo} {apoderado.Ap_paterno} {apoderado.Ap_materno}";
-                string nombre_alumno = $"{alumno.Nombre_completo} {alumno.Ap_paterno} {alumno.Ap_materno}";
-
-                cliente_mail.SendMailPaidAsync(user.Email, nombre_apoderado, nombre_alumno, abono);
-
-               
+                this.lblMessage.Text = "Debe seleccionar un curso";
             }
             else
             {
-                this.lblMessage.Text = "El pago no se pudo registrar por favor intente mas tarde";
-            }
+                if (this.dropRutAlumno.SelectedValue == "-1")
+                {
+                    this.lblMessage.Text = "Debe seleccionar un alumno";
+                }
+                else
+                {
+                    int deuda_total = CalcularDeuda(this.dropRutAlumno.SelectedValue, int.Parse(this.dropCurso.SelectedValue));
+                    int result_try_abono;
+                    int.TryParse(this.txtMontoCancelar.Text, out result_try_abono);
+                    if (result_try_abono == 0)
+                    {
+                        this.lblMessage.Text = "Debe ingresar un monto valido ej:1000, no incluya puntos ni comas";
+                    }
+                    else
+                    {
+                        int abono = int.Parse(this.txtMontoCancelar.Text);
+                        if (abono < 0)
+                        {
+                            this.lblMessage.Text = "Debe ingresar un monto positivo";
+                        }
+                        else
+                        {
+                            if (abono > deuda_total)
+                            {
+                                lblMessage.Text = "No puede cancelar un monto mayor, a la deuda actual que sos tiene";
+                            }
+                            else
+                            {
+                                string rut_alumno = this.dropRutAlumno.SelectedValue;
+                                int id_tipo_pago = 1;
 
+                                bool created = cliente_pago.CreateSinglePaid(abono, rut_alumno, id_tipo_pago);
+
+                                if (created)
+                                {
+                                    this.lblMessage.Text = "Pago creado con exito";
+                                    wsApoderado.Apoderado apoderado = (wsApoderado.Apoderado)Session["apoderado"];
+                                    this.LoadGridHistoricoPagos(apoderado.Rut);
+
+                                    wsApoderado.Alumno alumno = cliente_apoderado.GetAlumnoByRut(apoderado.Rut, rut_alumno);
+                                    wsUsuario.Usuario user = (wsUsuario.Usuario)Session["usuario"];
+
+                                    string nombre_apoderado = $"{apoderado.Nombre_completo} {apoderado.Ap_paterno} {apoderado.Ap_materno}";
+                                    string nombre_alumno = $"{alumno.Nombre_completo} {alumno.Ap_paterno} {alumno.Ap_materno}";
+
+                                    deuda_total = CalcularDeuda(this.dropRutAlumno.SelectedValue, int.Parse(this.dropCurso.SelectedValue));
+                                    lblDeudaActual.Text = "Deuda alumno: $" + deuda_total.ToString();
+                                    txtMontoCancelar.Text = ""; 
+
+                                    cliente_mail.SendMailPaidAsync(user.Email, nombre_apoderado, nombre_alumno, abono);
+
+
+                                }
+                                else
+                                {
+                                    this.lblMessage.Text = "El pago no se pudo registrar por favor intente mas tarde";
+                                }
+                            }
+                            
+                        } 
+                    }
+                }
+            }
         }
         private void LoadGridHistoricoPagos(string rut_apoderado)
         {
@@ -123,7 +178,6 @@ namespace Mantenedores
             dt.Columns.Add("Nombre Alumno", typeof(string));
             dt.Columns.Add("Curso", typeof(String));
             dt.Columns.Add("Monto", typeof(int));
-            dt.Columns.Add("Tipo", typeof(String));
 
             wsPago.ResumenPago[] pagos = cliente_pago.GetAllByApoderado(rut_apoderado);
 
@@ -136,7 +190,6 @@ namespace Mantenedores
                 dr["Nombre Alumno"] = resumen.Nombre_alumno;
                 dr["Curso"] = resumen.Curso;
                 dr["Monto"] = resumen.Abono;
-                dr["Tipo"] = resumen.Tipo;
 
                 dt.Rows.Add(dr);
 
@@ -145,6 +198,20 @@ namespace Mantenedores
 
             this.gridHistoricoPagos.DataSource = dt;
             this.DataBind();
+        }
+
+        protected void dropRutAlumno_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.dropRutAlumno.SelectedValue != "-1")
+            {
+                int deuda_total = CalcularDeuda(this.dropRutAlumno.SelectedValue, int.Parse(this.dropCurso.SelectedValue));
+                lblDeudaActual.Text = "Deuda alumno: $" + deuda_total.ToString();
+
+            }
+            else
+            {
+                lblDeudaActual.Text = "";
+            }
         }
     }
 }

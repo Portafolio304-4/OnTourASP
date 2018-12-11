@@ -1,6 +1,7 @@
 ﻿using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -84,6 +85,58 @@ namespace WSOnTour.Logica.Model
             command.Dispose();
 
             return found;
+
+        }
+
+        public int CountAlumnosInCurso()
+        {
+            int total = 0;
+            this._connection = new OracleConnection();
+            this._connection.ConnectionString = this.conn_string;
+            this._connection.Open();
+
+            try
+            {
+                // Create a Command object to call Get_Emp_No function.
+                OracleCommand cmd = new OracleCommand("AlumnosInCurso", this._connection);
+
+                // CommandType is StoredProcedure
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                // ** Note: With Oracle, The return parameter must be added first.
+                // Create result Parameter (Varchar2(50))
+                OracleParameter resultParam = new OracleParameter("@Result", OracleDbType.Int32);
+
+                // ReturnValue
+                resultParam.Direction = ParameterDirection.ReturnValue;
+
+                // Add to parameters
+                cmd.Parameters.Add(resultParam);
+
+                // Add parameter @p_Emp_Id and set value = 100.
+                cmd.Parameters.Add("@curso", OracleDbType.Int32).Value = this.Curso.Id;
+
+                // Call function.
+                cmd.ExecuteNonQuery();
+
+
+                if (resultParam.Value != DBNull.Value)
+                {
+                    total = int.Parse(resultParam.Value.ToString());
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e);
+                Console.WriteLine(e.StackTrace);
+            }
+            finally
+            {
+                this._connection.Close();
+                this._connection.Dispose();
+            }
+            return total;
 
         }
 

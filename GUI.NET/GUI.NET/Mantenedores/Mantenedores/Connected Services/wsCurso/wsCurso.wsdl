@@ -45,6 +45,20 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="CountAlumnosInCurso">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CountAlumnosInCursoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CountAlumnosInCursoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="ReadAllByColegioSoapIn">
@@ -59,6 +73,12 @@
   <wsdl:message name="VerifyApoderadoInCursoSoapOut">
     <wsdl:part name="parameters" element="tns:VerifyApoderadoInCursoResponse" />
   </wsdl:message>
+  <wsdl:message name="CountAlumnosInCursoSoapIn">
+    <wsdl:part name="parameters" element="tns:CountAlumnosInCurso" />
+  </wsdl:message>
+  <wsdl:message name="CountAlumnosInCursoSoapOut">
+    <wsdl:part name="parameters" element="tns:CountAlumnosInCursoResponse" />
+  </wsdl:message>
   <wsdl:portType name="wsCursoSoap">
     <wsdl:operation name="ReadAllByColegio">
       <wsdl:input message="tns:ReadAllByColegioSoapIn" />
@@ -67,6 +87,10 @@
     <wsdl:operation name="VerifyApoderadoInCurso">
       <wsdl:input message="tns:VerifyApoderadoInCursoSoapIn" />
       <wsdl:output message="tns:VerifyApoderadoInCursoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CountAlumnosInCurso">
+      <wsdl:input message="tns:CountAlumnosInCursoSoapIn" />
+      <wsdl:output message="tns:CountAlumnosInCursoSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="wsCursoSoap" type="tns:wsCursoSoap">
@@ -89,6 +113,15 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CountAlumnosInCurso">
+      <soap:operation soapAction="http://tempuri.org/CountAlumnosInCurso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="wsCursoSoap12" type="tns:wsCursoSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
@@ -103,6 +136,15 @@
     </wsdl:operation>
     <wsdl:operation name="VerifyApoderadoInCurso">
       <soap12:operation soapAction="http://tempuri.org/VerifyApoderadoInCurso" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CountAlumnosInCurso">
+      <soap12:operation soapAction="http://tempuri.org/CountAlumnosInCurso" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

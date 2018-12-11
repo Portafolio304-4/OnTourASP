@@ -33,6 +33,12 @@ namespace Mantenedores.wsEstadoCuenta {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetDeudaAlumno", ReplyAction="*")]
         System.Threading.Tasks.Task<int> GetDeudaAlumnoAsync(int curso);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetTotalPagos", ReplyAction="*")]
+        int GetTotalPagos(int curso);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetTotalPagos", ReplyAction="*")]
+        System.Threading.Tasks.Task<int> GetTotalPagosAsync(int curso);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -175,6 +181,14 @@ namespace Mantenedores.wsEstadoCuenta {
         
         public System.Threading.Tasks.Task<int> GetDeudaAlumnoAsync(int curso) {
             return base.Channel.GetDeudaAlumnoAsync(curso);
+        }
+        
+        public int GetTotalPagos(int curso) {
+            return base.Channel.GetTotalPagos(curso);
+        }
+        
+        public System.Threading.Tasks.Task<int> GetTotalPagosAsync(int curso) {
+            return base.Channel.GetTotalPagosAsync(curso);
         }
     }
 }

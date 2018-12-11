@@ -9,7 +9,9 @@
     <hr />
     <br />
 
-    <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
+    <center><asp:Label ID="lblMessage" runat="server" Text=""></asp:Label></center>
+    <br />
+    <center><asp:Label ID="lblDeudaActual" runat="server" Text=""></asp:Label></center>
     <div class="row">
         <div class="col-md-1"></div>
 
@@ -23,19 +25,23 @@
 
         <div class="row">
             <div class="col-md-4">Rut Alumno:</div>
-            <div class="col-md-4"><asp:DropDownList ID="dropRutAlumno" runat="server"></asp:DropDownList></div>
+            <div class="col-md-4"><asp:DropDownList ID="dropRutAlumno" runat="server" AutoPostBack="True" OnSelectedIndexChanged="dropRutAlumno_SelectedIndexChanged"></asp:DropDownList></div>
             <div class="col-md-4"></div>
 
         </div>
+        
         <div class="row">
             <div class="col-md-4">Monto a Cancelar</div>
-            <div class="col-md-4"><asp:TextBox ID="txtMontoCancelar" runat="server"></asp:TextBox></div>
+            <div class="col-md-4"><asp:TextBox ID="txtMontoCancelar" runat="server"></asp:TextBox></div
             <div class="col-md-4">
                 <asp:Button class="boton_azul" ID="btnPagar" runat="server" Text="Pagar" OnClick="btnPagar_Click" />
                 <br /><br />
                 <asp:HyperLink ID="hlInicioSesion" runat="server" NavigateUrl="~/portadaUsuario.aspx">Volver</asp:HyperLink>
             </div>
-
+        </div>
+         
+        <div class="row">
+            
         </div>
 
     </div>

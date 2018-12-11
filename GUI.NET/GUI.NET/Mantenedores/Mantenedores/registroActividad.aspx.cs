@@ -13,6 +13,7 @@ namespace Mantenedores
         wsApoderado.wsApoderadoSoapClient cliente_apoderado = new wsApoderado.wsApoderadoSoapClient();
         wsActividadPago.wsActividadPagoSoapClient cliente_actividad_pago = new wsActividadPago.wsActividadPagoSoapClient();
         wsSendMail.wsSendMailSoapClient cliente_correo = new wsSendMail.wsSendMailSoapClient();
+        wsEstadoCuenta.wsEstadoCuentaSoapClient cliente_ec = new wsEstadoCuenta.wsEstadoCuentaSoapClient();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -28,7 +29,6 @@ namespace Mantenedores
                     Session["apoderado"] = apoderado;
                     loadDropCurso(user.User_name);
                     LoadDropTipoActividad();
-                    //this.LoadGridHistoricoPagos(apoderado.Rut);
                 }
             }
 
@@ -38,32 +38,59 @@ namespace Mantenedores
         {
             if (this.dropCurso.SelectedValue == "-1" || this.dropTipoActividad.SelectedValue == "-1")
             {
-
+                lblResultado.Text = "Debe seleccionar un curso y un tipo de actividad";
             }
             else
             {
                 string descripcion = this.dropTipoActividad.SelectedValue;
-                int monto = int.Parse(txtMontoCancelar.Text);
-                int id_curso = int.Parse(dropCurso.Text);
-                DateTime fecha = DateTime.Now;
-                bool created = cliente_actividad_pago.CreatePaid(descripcion, monto, id_curso, fecha);
-                if (created)
+                int try_parse_monto;
+                int.TryParse(txtMontoCancelar.Text, out try_parse_monto);
+                if (try_parse_monto == 0)
                 {
-                    this.lblResultado.Text = "Actividad ingresada con exito";
-                    this.LoadGridHistoricoActividades();
-                    wsUsuario.Usuario user = (wsUsuario.Usuario)Session["usuario"];
-                    wsApoderado.Apoderado apoderado = (wsApoderado.Apoderado)Session["apoderado"];
-                    string nombre_apoderado = $"{apoderado.Nombre_completo} {apoderado.Ap_paterno} {apoderado.Ap_materno}";
-                    cliente_correo.SendMailActivityPaidAsync(user.Email, nombre_apoderado, dropCurso.SelectedItem.Text, monto);
-
+                    lblResultado.Text = "El monto de la actividad debe ser un numero";
                 }
                 else
                 {
-                    this.lblResultado.Text = "Fallo al ingresar actividad intente mas tarde";
-                }
+                    int monto = int.Parse(txtMontoCancelar.Text);
+                    if (monto < 0)
+                    {
+                        lblResultado.Text = "El monto de la actividad debe ser mayor a cero";
+                    }
+                    else
+                    {
+                        int deuda_total = cliente_ec.GetDeudaTotal(int.Parse(dropCurso.SelectedValue));
+                        int total_pagos = cliente_ec.GetTotalPagos(int.Parse(dropCurso.SelectedValue));
+                        int deuda_actual = deuda_total - total_pagos;
+                        if (deuda_actual < monto)
+                        {
+                            lblResultado.Text = "El monto de la actividad no puede ser mayor a la deuda";
+                        }
+                        else
+                        {
+                            int id_curso = int.Parse(dropCurso.Text);
+                            DateTime fecha = DateTime.Now;
+                            bool created = cliente_actividad_pago.CreatePaid(descripcion, monto, id_curso, fecha);
+                            if (created)
+                            {
+                                this.lblResultado.Text = "Actividad ingresada con exito";
+                                this.LoadGridHistoricoActividades();
+                                wsUsuario.Usuario user = (wsUsuario.Usuario)Session["usuario"];
+                                wsApoderado.Apoderado apoderado = (wsApoderado.Apoderado)Session["apoderado"];
+                                string nombre_apoderado = $"{apoderado.Nombre_completo} {apoderado.Ap_paterno} {apoderado.Ap_materno}";
+                                cliente_correo.SendMailActivityPaidAsync(user.Email, nombre_apoderado, dropCurso.SelectedItem.Text, monto);
 
+                                total_pagos = cliente_ec.GetTotalPagos(int.Parse(dropCurso.SelectedValue));
+                                lblDeudaTotal.Text = "Deuda Curso: $" + (deuda_total - total_pagos).ToString();
+
+                            }
+                            else
+                            {
+                                this.lblResultado.Text = "Fallo al ingresar actividad intente mas tarde";
+                            }
+                        }
+                    }
+                }
             }
-            
         }
 
         private void LoadDropTipoActividad()
@@ -91,8 +118,11 @@ namespace Mantenedores
             foreach (wsApoderado.Curso curso in cursos)
             {
                 ListItem item = new ListItem(curso.Nivel + " " + curso.Grado + curso.Letra, curso.Id.ToString());
-                this.dropCurso.Items.Add(item);
 
+                if (!this.dropCurso.Items.Contains(item))
+                {
+                    this.dropCurso.Items.Add(item);
+                }
             }
         }
 
@@ -131,7 +161,15 @@ namespace Mantenedores
 
         protected void dropCurso_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.LoadGridHistoricoActividades();
+            if (dropCurso.SelectedValue != "-1")
+            {
+                this.LoadGridHistoricoActividades();
+                int deuda_total = cliente_ec.GetDeudaTotal(int.Parse(dropCurso.SelectedValue));
+                int total_pagos = cliente_ec.GetTotalPagos(int.Parse(dropCurso.SelectedValue));
+                lblDeudaTotal.Text = "Deuda Curso: $" + (deuda_total - total_pagos).ToString();
+
+            }
+            
         }
     }
 }

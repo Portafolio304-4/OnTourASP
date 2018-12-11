@@ -15,111 +15,6 @@ namespace Mantenedores.wsPago {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Pago", Namespace="http://tempuri.org/")]
-    [System.SerializableAttribute()]
-    public partial class Pago : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        private int IdField;
-        
-        private int AbonoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string Rut_alumnoField;
-        
-        private int Id_pagoField;
-        
-        private System.DateTime FechaField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public int Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=1)]
-        public int Abono {
-            get {
-                return this.AbonoField;
-            }
-            set {
-                if ((this.AbonoField.Equals(value) != true)) {
-                    this.AbonoField = value;
-                    this.RaisePropertyChanged("Abono");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
-        public string Rut_alumno {
-            get {
-                return this.Rut_alumnoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.Rut_alumnoField, value) != true)) {
-                    this.Rut_alumnoField = value;
-                    this.RaisePropertyChanged("Rut_alumno");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=3)]
-        public int Id_pago {
-            get {
-                return this.Id_pagoField;
-            }
-            set {
-                if ((this.Id_pagoField.Equals(value) != true)) {
-                    this.Id_pagoField = value;
-                    this.RaisePropertyChanged("Id_pago");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=4)]
-        public System.DateTime Fecha {
-            get {
-                return this.FechaField;
-            }
-            set {
-                if ((this.FechaField.Equals(value) != true)) {
-                    this.FechaField = value;
-                    this.RaisePropertyChanged("Fecha");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ResumenPago", Namespace="http://tempuri.org/")]
     [System.SerializableAttribute()]
     public partial class ResumenPago : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
@@ -245,19 +140,12 @@ namespace Mantenedores.wsPago {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="wsPago.wsPagoSoap")]
     public interface wsPagoSoap {
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento GetAllByAlumnoResult del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento rut_alumno del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAllByAlumno", ReplyAction="*")]
         Mantenedores.wsPago.GetAllByAlumnoResponse GetAllByAlumno(Mantenedores.wsPago.GetAllByAlumnoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAllByAlumno", ReplyAction="*")]
         System.Threading.Tasks.Task<Mantenedores.wsPago.GetAllByAlumnoResponse> GetAllByAlumnoAsync(Mantenedores.wsPago.GetAllByAlumnoRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento GetAllByCursoResult del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAllByCurso", ReplyAction="*")]
-        Mantenedores.wsPago.GetAllByCursoResponse GetAllByCurso(Mantenedores.wsPago.GetAllByCursoRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAllByCurso", ReplyAction="*")]
-        System.Threading.Tasks.Task<Mantenedores.wsPago.GetAllByCursoResponse> GetAllByCursoAsync(Mantenedores.wsPago.GetAllByCursoRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento rut_apoderado del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAllByApoderado", ReplyAction="*")]
@@ -272,12 +160,6 @@ namespace Mantenedores.wsPago {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CreateSinglePaid", ReplyAction="*")]
         System.Threading.Tasks.Task<Mantenedores.wsPago.CreateSinglePaidResponse> CreateSinglePaidAsync(Mantenedores.wsPago.CreateSinglePaidRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CreateActivityPaid", ReplyAction="*")]
-        bool CreateActivityPaid();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CreateActivityPaid", ReplyAction="*")]
-        System.Threading.Tasks.Task<bool> CreateActivityPaidAsync();
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -300,10 +182,17 @@ namespace Mantenedores.wsPago {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute()]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class GetAllByAlumnoRequestBody {
         
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string rut_alumno;
+        
         public GetAllByAlumnoRequestBody() {
+        }
+        
+        public GetAllByAlumnoRequestBody(string rut_alumno) {
+            this.rut_alumno = rut_alumno;
         }
     }
     
@@ -331,74 +220,13 @@ namespace Mantenedores.wsPago {
     public partial class GetAllByAlumnoResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public Mantenedores.wsPago.Pago[] GetAllByAlumnoResult;
+        public Mantenedores.wsPago.ResumenPago[] GetAllByAlumnoResult;
         
         public GetAllByAlumnoResponseBody() {
         }
         
-        public GetAllByAlumnoResponseBody(Mantenedores.wsPago.Pago[] GetAllByAlumnoResult) {
+        public GetAllByAlumnoResponseBody(Mantenedores.wsPago.ResumenPago[] GetAllByAlumnoResult) {
             this.GetAllByAlumnoResult = GetAllByAlumnoResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class GetAllByCursoRequest {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="GetAllByCurso", Namespace="http://tempuri.org/", Order=0)]
-        public Mantenedores.wsPago.GetAllByCursoRequestBody Body;
-        
-        public GetAllByCursoRequest() {
-        }
-        
-        public GetAllByCursoRequest(Mantenedores.wsPago.GetAllByCursoRequestBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute()]
-    public partial class GetAllByCursoRequestBody {
-        
-        public GetAllByCursoRequestBody() {
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class GetAllByCursoResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="GetAllByCursoResponse", Namespace="http://tempuri.org/", Order=0)]
-        public Mantenedores.wsPago.GetAllByCursoResponseBody Body;
-        
-        public GetAllByCursoResponse() {
-        }
-        
-        public GetAllByCursoResponse(Mantenedores.wsPago.GetAllByCursoResponseBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class GetAllByCursoResponseBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public Mantenedores.wsPago.Pago[] GetAllByCursoResult;
-        
-        public GetAllByCursoResponseBody() {
-        }
-        
-        public GetAllByCursoResponseBody(Mantenedores.wsPago.Pago[] GetAllByCursoResult) {
-            this.GetAllByCursoResult = GetAllByCursoResult;
         }
     }
     
@@ -578,9 +406,10 @@ namespace Mantenedores.wsPago {
             return base.Channel.GetAllByAlumno(request);
         }
         
-        public Mantenedores.wsPago.Pago[] GetAllByAlumno() {
+        public Mantenedores.wsPago.ResumenPago[] GetAllByAlumno(string rut_alumno) {
             Mantenedores.wsPago.GetAllByAlumnoRequest inValue = new Mantenedores.wsPago.GetAllByAlumnoRequest();
             inValue.Body = new Mantenedores.wsPago.GetAllByAlumnoRequestBody();
+            inValue.Body.rut_alumno = rut_alumno;
             Mantenedores.wsPago.GetAllByAlumnoResponse retVal = ((Mantenedores.wsPago.wsPagoSoap)(this)).GetAllByAlumno(inValue);
             return retVal.Body.GetAllByAlumnoResult;
         }
@@ -590,33 +419,11 @@ namespace Mantenedores.wsPago {
             return base.Channel.GetAllByAlumnoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Mantenedores.wsPago.GetAllByAlumnoResponse> GetAllByAlumnoAsync() {
+        public System.Threading.Tasks.Task<Mantenedores.wsPago.GetAllByAlumnoResponse> GetAllByAlumnoAsync(string rut_alumno) {
             Mantenedores.wsPago.GetAllByAlumnoRequest inValue = new Mantenedores.wsPago.GetAllByAlumnoRequest();
             inValue.Body = new Mantenedores.wsPago.GetAllByAlumnoRequestBody();
+            inValue.Body.rut_alumno = rut_alumno;
             return ((Mantenedores.wsPago.wsPagoSoap)(this)).GetAllByAlumnoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Mantenedores.wsPago.GetAllByCursoResponse Mantenedores.wsPago.wsPagoSoap.GetAllByCurso(Mantenedores.wsPago.GetAllByCursoRequest request) {
-            return base.Channel.GetAllByCurso(request);
-        }
-        
-        public Mantenedores.wsPago.Pago[] GetAllByCurso() {
-            Mantenedores.wsPago.GetAllByCursoRequest inValue = new Mantenedores.wsPago.GetAllByCursoRequest();
-            inValue.Body = new Mantenedores.wsPago.GetAllByCursoRequestBody();
-            Mantenedores.wsPago.GetAllByCursoResponse retVal = ((Mantenedores.wsPago.wsPagoSoap)(this)).GetAllByCurso(inValue);
-            return retVal.Body.GetAllByCursoResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Mantenedores.wsPago.GetAllByCursoResponse> Mantenedores.wsPago.wsPagoSoap.GetAllByCursoAsync(Mantenedores.wsPago.GetAllByCursoRequest request) {
-            return base.Channel.GetAllByCursoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Mantenedores.wsPago.GetAllByCursoResponse> GetAllByCursoAsync() {
-            Mantenedores.wsPago.GetAllByCursoRequest inValue = new Mantenedores.wsPago.GetAllByCursoRequest();
-            inValue.Body = new Mantenedores.wsPago.GetAllByCursoRequestBody();
-            return ((Mantenedores.wsPago.wsPagoSoap)(this)).GetAllByCursoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -671,14 +478,6 @@ namespace Mantenedores.wsPago {
             inValue.Body.rut_alumno = rut_alumno;
             inValue.Body.id_tipo_pago = id_tipo_pago;
             return ((Mantenedores.wsPago.wsPagoSoap)(this)).CreateSinglePaidAsync(inValue);
-        }
-        
-        public bool CreateActivityPaid() {
-            return base.Channel.CreateActivityPaid();
-        }
-        
-        public System.Threading.Tasks.Task<bool> CreateActivityPaidAsync() {
-            return base.Channel.CreateActivityPaidAsync();
         }
     }
 }

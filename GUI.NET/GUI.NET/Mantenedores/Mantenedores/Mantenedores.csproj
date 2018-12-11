@@ -183,12 +183,6 @@
     <Content Include="Connected Services\wsPago\Mantenedores.wsPago.GetAllByAlumnoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\wsPago\Mantenedores.wsPago.GetAllByCursoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\wsPago\Mantenedores.wsPago.Pago.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
     <Content Include="Connected Services\wsPago\Mantenedores.wsPago.GetAllByApoderadoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>

@@ -136,6 +136,12 @@ namespace Mantenedores.wsCurso {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/VerifyApoderadoInCurso", ReplyAction="*")]
         System.Threading.Tasks.Task<Mantenedores.wsCurso.VerifyApoderadoInCursoResponse> VerifyApoderadoInCursoAsync(Mantenedores.wsCurso.VerifyApoderadoInCursoRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CountAlumnosInCurso", ReplyAction="*")]
+        int CountAlumnosInCurso(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CountAlumnosInCurso", ReplyAction="*")]
+        System.Threading.Tasks.Task<int> CountAlumnosInCursoAsync(int id);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -355,6 +361,14 @@ namespace Mantenedores.wsCurso {
             inValue.Body.id = id;
             inValue.Body.rut = rut;
             return ((Mantenedores.wsCurso.wsCursoSoap)(this)).VerifyApoderadoInCursoAsync(inValue);
+        }
+        
+        public int CountAlumnosInCurso(int id) {
+            return base.Channel.CountAlumnosInCurso(id);
+        }
+        
+        public System.Threading.Tasks.Task<int> CountAlumnosInCursoAsync(int id) {
+            return base.Channel.CountAlumnosInCursoAsync(id);
         }
     }
 }

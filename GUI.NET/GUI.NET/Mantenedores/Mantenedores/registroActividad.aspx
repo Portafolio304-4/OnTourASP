@@ -14,15 +14,9 @@
 
 
         <div class="col-md-10">
-
-        <%-- 
-        <div class="row">
-            <div class="col-md-4"><label>Colegio:</label></div>
-            <div class="col-md-4"><asp:DropDownList ID="DropColegio" runat="server"></asp:DropDownList></div>
-            <div class="col-md-4"></div>
-
-        </div>
-        --%>
+        
+        <center><asp:Label ID="lblResultado" runat="server" Text=""></asp:Label></center>
+        <center><asp:Label ID="lblDeudaTotal" runat="server" Text=""></asp:Label></center>
 
         <div class="row">
             <div class="col-md-4"><label>Curso:</label></div>
@@ -41,7 +35,7 @@
             <div class="col-md-4">Monto Alcanzado:</div>
             <div class="col-md-4"><asp:TextBox ID="txtMontoCancelar" runat="server"></asp:TextBox></div>
             <div class="col-md-4">
-                <br /><asp:Label ID="lblResultado" runat="server" Text=""></asp:Label>
+                <br />
                 <br /><br />
                 <asp:Button class="boton_azul" ID="btnPagar" runat="server" Text="Pagar" OnClick="btnPagar_Click" />
                 <br /><br />
