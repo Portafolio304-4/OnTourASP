@@ -104,6 +104,7 @@ namespace Mantenedores
                 LoadGridPagosAlumno(rut_alumno);
                 LoadGridHistoricoActividades(id_curso);
                 lblResultado.Text = "Estado de cuenta generado con exito!!";
+                lblResultado.Visible = true;
 
 
             }
@@ -123,7 +124,20 @@ namespace Mantenedores
                 wsApoderado.Apoderado apoderado = (wsApoderado.Apoderado)Session["apoderado"];
                 this.loadDropRutAlumno(int.Parse(dropCurso.SelectedValue), apoderado.Rut);
             }
+            ClearInfo();
+        }
 
+        private void ClearInfo()
+        {
+            lblDeudaTotalAlumno.Visible = false;
+            lblInfo.Visible = false;
+            lblResultado.Visible = false;
+            lblResumenActividades.Visible = false;
+            lblResumenPagos.Visible = false;
+            lblTotalPagadoAlumno.Visible = false;
+            lblTotalPorPagarAlumno.Visible = false;
+            gvActividadesAlumno.Visible = false;
+            gvPagoAlumno.Visible = false;
         }
 
         private void LoadGridPagosAlumno(string rut_alumno)
@@ -184,6 +198,11 @@ namespace Mantenedores
             this.DataBind();
 
             gvActividadesAlumno.Visible = true;
+        }
+
+        protected void dropRutAlumno_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ClearInfo();
         }
     }
 }

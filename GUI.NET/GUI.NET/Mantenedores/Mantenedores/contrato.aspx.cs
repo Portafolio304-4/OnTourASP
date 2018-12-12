@@ -62,7 +62,10 @@ namespace Mantenedores
             foreach (wsApoderado.Curso curso in cursos)
             {
                 ListItem item = new ListItem(curso.Nivel + " " + curso.Grado + curso.Letra, curso.Id.ToString());
-                this.dropCurso.Items.Add(item);
+                if (!this.dropCurso.Items.Contains(item))
+                {
+                    this.dropCurso.Items.Add(item);
+                }
 
             }
 

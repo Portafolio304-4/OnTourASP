@@ -171,5 +171,10 @@ namespace Mantenedores
             }
             
         }
+
+        protected void gridHistoricoActividades_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
