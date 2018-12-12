@@ -152,7 +152,8 @@ namespace WSOnTour.Logica.Model
                 "FROM " +
                 "PAGO p " +
                 "JOIN alumno a " +
-                "ON(p.rut_alumno = a.rut)";
+                "ON(p.rut_alumno = a.rut)" +
+                " WHERE a.rut=:rut_alumno";
 
             OracleCommand command = new OracleCommand(sql, this._connection);
             ResumenPago pago = new ResumenPago();
